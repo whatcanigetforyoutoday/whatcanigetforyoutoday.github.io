@@ -199,19 +199,6 @@ textarea { resize: vertical; line-height: 1.55; }
 .addrow .plus { width: 44px; height: 44px; border-radius: 16px; background: var(--grad); color: var(--on-blue); display: grid; place-items: center; font-size: 24px; font-weight: 500; box-shadow: var(--glow); }
 .addrow:active { box-shadow: var(--inset); }
 
-/* 기준 장소 */
-.plist { display: flex; flex-direction: column; gap: 12px; }
-.prow { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 6px; background: var(--surface); border-radius: 22px; padding: 6px 8px 6px 6px; box-shadow: var(--raise-sm); }
-.prow.on { box-shadow: var(--raise-sm), 0 0 0 2px var(--sky); }
-.pselect { display: flex; align-items: center; gap: 14px; border: 0; background: none; text-align: left; padding: 8px 10px; min-width: 0; }
-.pselect b { display: block; font-size: 15px; }
-.pselect small { display: block; font-size: 12px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.pselect > span:last-child { min-width: 0; }
-.radio { width: 26px; height: 26px; border-radius: 50%; flex: none; background: var(--well); box-shadow: var(--inset); display: grid; place-items: center; }
-.prow.on .radio { background: var(--grad); box-shadow: var(--glow); }
-.prow.on .radio::after { content: ""; width: 9px; height: 9px; border-radius: 50%; background: #fff; }
-.prow .btn { padding: 8px 10px; font-size: 13px; }
-
 /* 메모장 */
 .memos { display: flex; flex-direction: column; gap: 12px; }
 .memo { background: var(--well); border-radius: 20px; padding: 14px 16px 10px; box-shadow: var(--inset); }
@@ -326,12 +313,6 @@ nav.tabs button[aria-selected="true"] { border-color: transparent; background: v
   <!-- 설정 -->
   <section id="tab-set" class="app" hidden>
     <div class="panel">
-      <h3 class="h3">기준 장소</h3>
-      <p class="hint">고른 장소에서 걸어갈 수 있는 곳만 뽑아요. 회사, 집, 자주 가는 곳을 등록해 두고 그때그때 바꿔 쓰세요.</p>
-      <div class="plist" id="plist"></div>
-      <button class="addrow" id="addPlace" type="button"><span class="plus">+</span>장소 추가하기</button>
-    </div>
-    <div class="panel">
       <h3 class="h3">메모장</h3>
       <p class="hint">메뉴, 가격, 맛, 웨이팅 등 무엇이든 자유롭게 적어요. 식당 이름을 함께 적으면 그 식당이 뽑혔을 때 메모가 같이 보여요.</p>
       <textarea id="memoNew" rows="3" placeholder="예) 담솥 압구정점 - 장어솥밥 19,000원, 12시 넘으면 웨이팅 10분"></textarea>
@@ -419,16 +400,11 @@ const store = {
 };
 const BASE = {meal: SAMPLE_MEAL, cafe: SAMPLE_CAFE};   // 파일에서 읽은 기본 목록
 let usingSample = true;
-// 기준 장소: 회사·집 등 여러 곳을 저장하고 하나를 골라 거리 기준으로 써요. company = 지금 고른 기준 장소
-let fileCompany = null;   // data/company.json (식당 목록을 모은 중심)
-let savedPlaces = store.get('places', null);
-if (!savedPlaces){ const old = store.get('company', null); if (hasCoordsRaw(old)) savedPlaces = [{...old, id:'company', name:'회사'}]; }
-let baseId = store.get('baseId', null);
-let company = DEFAULT_COMPANY;
-function hasCoordsRaw(o){ return !!o && isFinite(o.lat) && isFinite(o.lng) && o.lat !== null && o.lng !== null && o.lat !== '' && o.lng !== ''; }
-function placesList(){ return savedPlaces || [{...(fileCompany || DEFAULT_COMPANY), id:'company', name:'회사'}]; }
-function pickBase(){ const list = placesList(); company = list.find(p => p.id === baseId) || list[0]; }
-pickBase();
+// 회사 전용 앱: 거리 기준은 항상 회사(data/company.json) 한 곳이에요
+let fileCompany = null;
+let company = {...DEFAULT_COMPANY, id:'company', name:'회사'};
+function pickBase(){ company = {...(fileCompany || DEFAULT_COMPANY), id:'company', name:'회사'}; }
+try { localStorage.removeItem('omg:places'); localStorage.removeItem('omg:baseId'); localStorage.removeItem('omg:company'); } catch(e){}   // 예전 장소 설정 정리
 let memos = store.get('memos', []);
 // 이 기기에서 고친 내용만 따로 저장해요 (기본 목록이 새로 수집돼도 내 메모가 남도록)
 let edits = Object.assign({meal:{}, cafe:{}}, store.get('edits', {}));
@@ -603,8 +579,7 @@ function naverRouteApp(r){
 function renderHeader(){
   const d = new Date();
   $('#today').innerHTML = `<strong>${d.getMonth()+1}월 ${d.getDate()}일 ${DAYS[d.getDay()]}요일</strong>${mode === 'cafe' ? '카페' : mealNow() + ' 메뉴'} 고르는 중`;
-  $('#companyLine').innerHTML = `${PIN}<span><b>${esc(company.name)}</b> 기준</span> · <button id="switchBase" type="button">장소 바꾸기</button>`;
-  $('#switchBase').onclick = openBaseSheet;
+  $('#companyLine').innerHTML = `${PIN}<span><b>${esc(company.name)}</b>${company.address ? ` (${esc(company.address.replace(/^서울\s*/, ''))})` : ''} 기준</span>`;
 }
 function renderFilters(){
   $('#walkSeg').innerHTML = rules.map(w => `<input type="radio" name="walk" id="w${w.min}" value="${w.min}" ${filters.walk===w.min?'checked':''}><label for="w${w.min}"><i class="dot"></i><span class="pill">${w.min}분 이내<small class="num">${fmtM(w.m)}</small></span></label>`).join('');
@@ -950,73 +925,6 @@ function openEditor(r){
   };
 }
 
-/* ===== 마이페이지: 기준 장소 ===== */
-function savePlaces(list){
-  savedPlaces = list; store.set('places', list); store.set('baseId', baseId);
-  pickBase(); skipIds.clear(); current = null; $('#result').innerHTML = '';
-  renderHeader(); renderFilters(); renderPlaces(); renderList();
-}
-function setBase(id){ baseId = id; savePlaces(placesList()); toast(`${company.name} 기준으로 바꿨어요`); }
-function renderPlaces(){
-  $('#plist').innerHTML = placesList().map(p => `
-    <div class="prow ${p.id === company.id ? 'on' : ''}">
-      <button class="pselect" type="button" data-base="${esc(p.id)}"><span class="radio"></span><span><b>${esc(p.name)}</b><small>${esc(p.address || (hasCoordsRaw(p) ? `${p.lat}, ${p.lng}` : '위치 없음'))}</small></span></button>
-      <button class="btn ghost" type="button" data-pedit="${esc(p.id)}">수정</button>
-    </div>`).join('');
-}
-document.addEventListener('click', e => {
-  const b = e.target.closest('[data-base]'); if (b){ setBase(b.dataset.base); if (b.closest('.sheet')) $('#layer').innerHTML = ''; return; }
-  const ed = e.target.closest('[data-pedit]'); if (ed) openPlaceEditor(placesList().find(p => p.id === ed.dataset.pedit));
-});
-$('#addPlace').onclick = () => openPlaceEditor(null);
-function openBaseSheet(){
-  $('#layer').innerHTML = `<div class="sheet-bg" id="sheetBg"><div class="sheet" role="dialog" aria-modal="true" aria-labelledby="bt">
-    <h3 id="bt">어디 기준으로 고를까요?</h3>
-    <div class="plist">${placesList().map(p => `<div class="prow ${p.id === company.id ? 'on' : ''}"><button class="pselect" type="button" data-base="${esc(p.id)}"><span class="radio"></span><span><b>${esc(p.name)}</b><small>${esc(p.address || '')}</small></span></button></div>`).join('')}</div>
-    <button class="addrow" type="button" id="sheetAddPlace"><span class="plus">+</span>장소 추가하기</button>
-  </div></div>`;
-  $('#sheetBg').onclick = e => { if (e.target.id === 'sheetBg') $('#layer').innerHTML = ''; };
-  $('#sheetAddPlace').onclick = () => openPlaceEditor(null);
-}
-function openPlaceEditor(p){
-  const isNew = !p, d = p ? {...p} : {id:'p'+Date.now(), name:'', address:'', lat:'', lng:''};
-  $('#layer').innerHTML = `<div class="sheet-bg" id="sheetBg"><form class="sheet form" id="plForm" role="dialog" aria-modal="true" aria-labelledby="pt">
-    <h3 id="pt">${isNew ? '장소 추가' : '장소 수정'}</h3>
-    <label class="field"><span>이름</span><input id="pName" type="text" required placeholder="예) 집, 본사, 헬스장" value="${esc(d.name)}"></label>
-    <label class="field"><span>주소</span><input id="pAddr" type="text" placeholder="예) 서울 강남구 도산대로 313" value="${esc(d.address || '')}"></label>
-    <button type="button" class="btn" id="pGeo" ${naverReady ? '' : 'disabled'}>주소로 위치 찾기</button>
-    <p class="hint">${naverReady ? '주소를 적고 누르면 위도·경도가 채워져요.' : '주소로 위치 찾기는 GitHub 사이트에서만 돼요. 여기서는 위도·경도를 직접 넣어 주세요. (지도 앱에서 위치를 길게 누르면 보여요)'}</p>
-    <div class="row2">
-      <label class="field"><span>위도</span><input id="pLat" type="number" step="any" inputmode="decimal" value="${esc(d.lat)}"></label>
-      <label class="field"><span>경도</span><input id="pLng" type="number" step="any" inputmode="decimal" value="${esc(d.lng)}"></label>
-    </div>
-    <div class="actions">
-      <button type="button" class="btn ghost" id="pCancel">취소</button>
-      <button type="submit" class="btn primary">저장</button>
-      ${!isNew && placesList().length > 1 ? '<button type="button" class="btn danger full" id="pDel">이 장소 삭제</button>' : ''}
-    </div>
-  </form></div>`;
-  const close = () => $('#layer').innerHTML = '';
-  $('#pCancel').onclick = close;
-  $('#sheetBg').onclick = e => { if (e.target.id === 'sheetBg') close(); };
-  $('#pGeo').onclick = () => geocode($('#pAddr').value, (lat, lng) => { $('#pLat').value = lat; $('#pLng').value = lng; toast('위치를 찾았어요'); });
-  if ($('#pDel')){ let armed = false; $('#pDel').onclick = ev => {
-    if (!armed){ armed = true; ev.target.textContent = '한 번 더 누르면 삭제돼요'; return; }
-    if (baseId === d.id) baseId = null;
-    savePlaces(placesList().filter(x => x.id !== d.id)); close(); toast('장소를 삭제했어요');
-  }; }
-  $('#plForm').onsubmit = ev => {
-    ev.preventDefault();
-    const lat = parseFloat($('#pLat').value), lng = parseFloat($('#pLng').value);
-    const out = {id: d.id, name: $('#pName').value.trim(), address: $('#pAddr').value.trim(), lat: isFinite(lat) ? lat : null, lng: isFinite(lng) ? lng : null};
-    if (!out.name){ toast('장소 이름을 적어 주세요'); return; }
-    if (!hasCoordsRaw(out)){ toast('위도·경도를 넣거나 주소로 위치를 찾아 주세요'); return; }
-    const list = placesList().slice(), i = list.findIndex(x => x.id === d.id);
-    if (i >= 0) list[i] = out; else list.push(out);
-    if (isNew) baseId = out.id;   // 새로 추가한 곳을 바로 기준으로
-    savePlaces(list); close(); toast(isNew ? `${out.name} 기준으로 바꿨어요` : '저장했어요');
-  };
-}
 /* ===== 앱 설치 (PWA) ===== */
 let installEvt = null;
 const isStandalone = () => matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
@@ -1108,7 +1016,7 @@ function showTab(t){
     renderHeader(); renderFilters();
   }
   if (t === 'list'){ document.querySelector(`input[name=listMode][value=${listMode}]`).checked = true; renderList(); }
-  if (t === 'set'){ renderPlaces(); renderMemos(); renderRules(); renderInstall(); }
+  if (t === 'set'){ renderMemos(); renderRules(); renderInstall(); }
   window.scrollTo(0, 0);
 }
 document.querySelectorAll('nav.tabs button').forEach(b => b.onclick = () => showTab(b.dataset.tab));

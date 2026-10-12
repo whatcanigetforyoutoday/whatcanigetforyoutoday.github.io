@@ -4,12 +4,27 @@ import { readFileSync, writeFileSync } from 'node:fs';
 const root = new URL('../', import.meta.url);
 const body = readFileSync(new URL('app.html', root), 'utf8');
 
+// 링크 미리보기에 쓰는 주소와 소개글
+const SITE = 'https://whatcanigetforyoutoday.github.io/';
+const DESC = '회사 근처 걸어갈 수 있는 식당 중에서 오늘 점심·저녁 메뉴를 랜덤으로 골라드려요';
+
 const head = `<!doctype html>
 <html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="회사·집 근처 식당과 카페 중 걸어갈 수 있는 곳을 랜덤으로 골라주는 점심·저녁 메뉴 추첨기">
+<meta name="description" content="${DESC}">
+<!-- 카카오톡·슬랙 등에 링크를 보낼 때 보이는 미리보기 -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="오늘 뭐 먹지">
+<meta property="og:title" content="오늘 뭐 먹지">
+<meta property="og:description" content="${DESC}">
+<meta property="og:url" content="${SITE}">
+<meta property="og:image" content="${SITE}icons/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#DDE5EB" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#151B26" media="(prefers-color-scheme: dark)">

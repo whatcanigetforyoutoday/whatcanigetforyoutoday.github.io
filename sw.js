@@ -3,7 +3,7 @@
 // - 아이콘·글꼴은 한 번 받으면 저장해 두고 써요.
 // - 네이버·카카오 지도는 건드리지 않아요 (항상 원래대로 인터넷에서 받아요).
 // 파일을 바꿔 배포할 때는 VERSION만 올리면 예전 저장본이 정리돼요.
-const VERSION = '2026-10-12-4';
+const VERSION = '2026-10-12-5';
 const SHELL = `shell-${VERSION}`;
 const FONTS = 'fonts-v1';
 const PRECACHE = [

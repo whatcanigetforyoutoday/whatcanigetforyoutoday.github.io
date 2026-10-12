@@ -619,8 +619,9 @@ function renderCats(){
   for (const r of near) cnt[r.cat] = (cnt[r.cat] || 0) + 1;
   const inc = filters.inc[mode], exc = filters.exc[mode];
   const chip = (kind, set) => c => `<button type="button" data-kind="${kind}" data-cat="${esc(c)}" aria-pressed="${set.includes(c)}" ${cnt[c] ? '' : 'disabled'}>${esc(c)}<small>${cnt[c] || 0}</small></button>`;
-  $('#incCats').innerHTML = MODES[mode].cats.map(chip('inc', inc)).join('');
-  $('#excCats').innerHTML = MODES[mode].cats.map(chip('exc', exc)).join('');
+  const shown = MODES[mode].cats.filter(c => c !== '기타');   // '기타'는 고르는 버튼에서 빼요
+  $('#incCats').innerHTML = shown.map(chip('inc', inc)).join('');
+  $('#excCats').innerHTML = shown.map(chip('exc', exc)).join('');
 }
 function saveFilters(){ skipIds.clear(); store.set('filters', filters); updateCount(); }
 document.addEventListener('click', e => {

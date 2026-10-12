@@ -1,3 +1,5 @@
 kakao_key.txt
 .claude/
 node_modules/
+*.xlsx
+tools/_rows.json

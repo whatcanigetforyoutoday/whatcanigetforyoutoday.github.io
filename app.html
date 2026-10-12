@@ -503,7 +503,7 @@ const PRICEY_CAT = /한정식|프랑스음식|스테이크,립|복어|장어|게
 const PRICEY_NAME = /오마카세|우마카세|파인다이닝|다이닝|스테이크|한우|와규|트러플|레스토랑|비스트로|^스시|鮨|코스|프렌치|그릴$/;
 const NOT_PRICEY = /국밥|곰탕|탕$|칼국수|부대|쪽갈비|김밥|도시락|덮밥|분식|포차|라면|샐러드|버거|정육점식당/;
 function priceyAuto(r){ return (PRICEY_CAT.test(r.kakaoCat || '') || PRICEY_NAME.test(r.name)) && !NOT_PRICEY.test(r.name + (r.kakaoCat || '')); }
-function isPricey(r){ const t = priceTag[r.id]; return t ? t === 'pricey' : priceyAuto(r); }
+function isPricey(r){ const t = priceTag[r.id]; return t ? t === 'pricey' : typeof r.pricey === 'boolean' ? r.pricey : priceyAuto(r); }
 function setPriceTag(r, tag){ if (tag) priceTag[r.id] = tag; else delete priceTag[r.id]; store.set('priceTag', priceTag); skipIds.clear(); }
 // 영업시간: {가게id: {when:'dinner'|'lunch'|'all', off:[요일0~6], open:'11:30', close:'21:00'}}
 let hours = store.get('hours', {});
@@ -513,7 +513,7 @@ function dinnerOnlyAuto(r){ return DINNER_NAME.test(r.name) || DINNER_CAT.test(r
 const toMin = t => { const m = /^(\d{1,2}):(\d{2})$/.exec(t || ''); return m ? +m[1]*60 + +m[2] : null; };
 // 지금(뽑는 시점) 열려 있는지. 모르면 열려 있다고 봐요
 function openNow(r, now = new Date()){
-  const h = hours[r.id] || {};
+  const h = hours[r.id] || r.hours || {};
   if ((h.off || []).includes(now.getDay())) return false;
   const o = toMin(h.open), c = toMin(h.close), t = now.getHours()*60 + now.getMinutes();
   if (o !== null && c !== null) return c > o ? (t >= o && t < c) : (t >= o || t < c);   // 자정 넘겨 닫는 곳
@@ -527,12 +527,27 @@ function candidates(){ return places().filter(r => baseMatch(r) && catOk(r)); }
 const fmtM = m => m >= 1000 ? `${+(m/1000).toFixed(1)}km` : `${m}m`;
 
 /* ===== 데이터 파일 읽기 ===== */
+// 엑셀로 고친 내용(data/overrides.json)을 기본 목록 위에 덮어써요: 이름·종류·비싼 곳·영업시간·빼기·메모·새 가게
+function applySheet(list, ov, kind){
+  const o = (ov && ov[kind]) || {}, added = ((ov && ov.added) || {})[kind] || [];
+  return list.concat(added).flatMap(r => {
+    const e = o[r.id]; if (!e) return [r];
+    if (e.hide) return [];
+    const x = {...r};
+    if (e.name) x.name = e.name;
+    if (e.cat) x.cat = e.cat;
+    if (typeof e.pricey === 'boolean') x.pricey = e.pricey;
+    if (e.note) x.note = e.note;
+    if (e.when || e.open || (e.off && e.off.length)) x.hours = {when: e.when || '', open: e.open || '', close: e.close || '', off: e.off || []};
+    return [x];
+  });
+}
 async function loadData(){
   const get = u => fetch(u, {cache:'no-cache'}).then(r => { if (!r.ok) throw new Error(u); return r.json(); });
   try {
-    const [c, meal, cafe] = await Promise.all([get('data/company.json'), get(MODES.meal.file), get(MODES.cafe.file).catch(() => [])]);
+    const [c, meal, cafe, ov] = await Promise.all([get('data/company.json'), get(MODES.meal.file), get(MODES.cafe.file).catch(() => []), get('data/overrides.json').catch(() => ({}))]);
     if (!Array.isArray(meal) || !meal.length) return;
-    BASE.meal = meal; BASE.cafe = Array.isArray(cafe) ? cafe : [];
+    BASE.meal = applySheet(meal, ov, 'meal'); BASE.cafe = applySheet(Array.isArray(cafe) ? cafe : [], ov, 'cafe');
     usingSample = false;
     if (hasCoords(c)){ fileCompany = c; pickBase(); }
     current = null; $('#result').innerHTML = '';
@@ -678,13 +693,9 @@ function renderResult(r, scroll = true){
     </div>${gauge(r)}</div>
     <div class="ticket-body">
       ${menus ? `<div class="group"><span class="label">대표 메뉴</span><div class="menus">${menus}</div></div>` : ''}
-      ${r.note ? `<div class="review"><span class="label">우리 팀 한줄평</span>${esc(r.note)}</div>` : ''}
+      ${r.note ? `<div class="review"><span class="label">메모</span>${esc(r.note)}</div>` : ''}
       ${mine.map(m => `<div class="review"><span class="label">내 메모</span>${esc(m.text)}</div>`).join('')}
-      <div class="actions">
-        <button class="btn ${mode === 'cafe' ? 'full' : ''}" id="memoQuick" type="button">+ 메모하기</button>
-        ${mode === 'meal' ? `<button class="btn" id="priceFix" type="button">${isPricey(r) ? '안 비싸요' : '비싸요 · 빼기'}</button>` : ''}
-        <button class="btn full" id="hoursFix" type="button">${hours[r.id] ? '영업시간 수정' : '지금 영업 안 해요 · 영업시간 입력'}</button>
-      </div>
+      <button class="btn" id="memoQuick" type="button">+ 메모하기</button>
       ${r.address ? `<p class="addr">${PIN}<span>${esc(r.address)}${r.phone ? ` · ${esc(r.phone)}` : ''}</span></p>` : ''}
       <div class="group"><span class="label">메뉴판·리뷰 보기</span><div class="actions">
         ${r.kakao ? `<a class="btn kakao" href="${esc(httpsUrl(r.kakao))}" target="_blank" rel="noopener"><span class="dot"></span>카카오맵</a>` : ''}
@@ -699,13 +710,6 @@ function renderResult(r, scroll = true){
   </article>`;
   $('#againBtn').onclick = () => { skipIds.add(r.id); draw(); };
   $('#memoQuick').onclick = () => openMemoSheet(null, r.name + ' - ');
-  if ($('#priceFix')) $('#priceFix').onclick = () => {
-    const was = isPricey(r);
-    setPriceTag(r, was ? 'ok' : 'pricey');
-    updateCount(); renderResult(r, false);
-    toast(was ? '다음부터 이 식당도 뽑아요' : '비싼 곳으로 표시했어요. 다음부터 빼고 뽑아요');
-  };
-  $('#hoursFix').onclick = () => openHoursSheet(r);
   $('#decideBtn').onclick = () => openRouteSheet(r);
   if (naverReady) drawNaverMap(r);
   if (scroll) $('#result').scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block:'start'});

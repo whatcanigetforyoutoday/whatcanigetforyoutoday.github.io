@@ -1,0 +1,10834 @@
+{
+ "meal": {
+  "k14841339": {
+   "name": "바랗",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1578313404": {
+   "name": "들밥차반 신사점",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1118676239": {
+   "name": "파브리키친",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k230977095": {
+   "name": "류니끄",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1285569546": {
+   "name": "윌로우파크",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k19381618": {
+   "name": "갓포아키 도산공원점",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k25739282": {
+   "name": "인뉴욕",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1827553268": {
+   "name": "본태",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k651104505": {
+   "name": "고료리켄",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k15270381": {
+   "name": "스시선수",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k27196653": {
+   "name": "파시0914",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k21311108": {
+   "name": "마켓오 압구정점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k7863609": {
+   "name": "마이쏭",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1414077027": {
+   "name": "포노부오노",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k616070872": {
+   "name": "도산회관",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1464800718": {
+   "name": "스시시미즈",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k17929814": {
+   "name": "js가든 청담점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8211704": {
+   "name": "그랑씨엘",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1207122673": {
+   "name": "중식당수녹",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k24452554": {
+   "name": "보다",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1662626352": {
+   "name": "다이닝마",
+   "cat": "중식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k79818549": {
+   "name": "메종 사우스케이프",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2035856429": {
+   "name": "호루몬",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1413345315": {
+   "name": "도산족발&칼국수",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k384592680": {
+   "name": "에빗",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k144922316": {
+   "name": "비스트로문",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k779410286": {
+   "name": "마테르",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1899783523": {
+   "name": "하바네로 도산본점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k823139532": {
+   "name": "도산스테이",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8079815": {
+   "name": "저스트스테이크",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k18383358": {
+   "name": "현해",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k23829251": {
+   "name": "스시코우지",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1431101688": {
+   "name": "삼계부용",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k9450938": {
+   "name": "주래등",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1820870263": {
+   "name": "해월",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k162628542": {
+   "name": "시올돈 논현점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k7977691": {
+   "name": "스시초희",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k7957284": {
+   "name": "손국시 손칼국수감자수제비",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k19954993": {
+   "name": "미미",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1962272485": {
+   "name": "소나무",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2101851249": {
+   "name": "남도이모네",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8156521": {
+   "name": "한우리 본점",
+   "cat": "고기",
+   "pricey": true,
+   "when": "all"
+  },
+  "k26646332": {
+   "name": "한우리외식산업",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k438545041": {
+   "name": "더리치",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k838839210": {
+   "name": "산초",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k489271977": {
+   "name": "투뿔등심 논현본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1587043708": {
+   "name": "투뿔코리안스테이크하우스 논현점",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1138461564": {
+   "name": "미진해산",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27512691": {
+   "name": "현정숯불바베큐 3호점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k27456304": {
+   "name": "js가든 블랙점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1822194064": {
+   "name": "은우 더 블랙 도산점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k819346791": {
+   "name": "쉐이크쉑 청담점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k734143592": {
+   "name": "하우스오브코이",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k440863863": {
+   "name": "코이라멘 도산점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1755051582": {
+   "name": "초심한우정육점식당",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2113933760": {
+   "name": "가드너아드리아",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8163543": {
+   "name": "현복집 강남본점",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1966152470": {
+   "name": "신사꽃게당 압구정로데오점",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k26489539": {
+   "name": "바르다김선생 학동사거리점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1740332232": {
+   "name": "도산화로",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1019153675": {
+   "name": "더청춘",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8059619": {
+   "name": "자연석돌구이",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2019152161": {
+   "name": "라비센샐러드",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k428742717": {
+   "name": "바루네디",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k11748537": {
+   "name": "푸드2900 논현시티점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k164174751": {
+   "name": "신선양곱창",
+   "cat": "고기",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k323398311": {
+   "name": "영동포차나",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1454139847": {
+   "name": "춘하추동밀면 논현직영점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k7890332": {
+   "name": "반포등심",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1233575670": {
+   "name": "새돌집",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k295146706": {
+   "name": "우담",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k12997052": {
+   "name": "최전방 부대찌개닭갈비 논현직영점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2125284438": {
+   "name": "평양면옥 도산",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1320442834": {
+   "name": "대물섬 강남점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k190588708": {
+   "name": "도산재",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1471964887": {
+   "name": "오리소오리소",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1842092715": {
+   "name": "간 참치앤스시",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k281343094": {
+   "name": "고다이 청담점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k279706572": {
+   "name": "우보테라스",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k38900101": {
+   "name": "본가설렁탕 도산대로점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k12523538": {
+   "name": "청기와",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k770867189": {
+   "name": "스시리큐",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1765091766": {
+   "name": "오클랜드파이개러지",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1025186322": {
+   "name": "베르노",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k950258849": {
+   "name": "제국한우짝갈비",
+   "cat": "고기",
+   "pricey": true,
+   "when": "all"
+  },
+  "k16557908": {
+   "name": "부부불이 동대문닭한마리",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k24286814": {
+   "name": "모우정",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27413286": {
+   "name": "청담머구리",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1213874113": {
+   "name": "담소",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k224013870": {
+   "name": "경몽루 논현점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8140834": {
+   "name": "한성칼국수",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1894886313": {
+   "name": "더코너하우스",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k8497356": {
+   "name": "어도",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2131412849": {
+   "name": "스시소라 청담점",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k2147163822": {
+   "name": "카이퍼 청담",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8970423": {
+   "name": "마리모",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k662133771": {
+   "name": "도쿄참치",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k14711970": {
+   "name": "압구정변강쇠떡볶이",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k652541837": {
+   "name": "소풍",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27514345": {
+   "name": "양식당 논현본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2121312109": {
+   "name": "무브먼트",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1526871798": {
+   "name": "우앤",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2054936882": {
+   "name": "뜨라또리아샘킴",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k551894570": {
+   "name": "20회수산 하루20판한정판매",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1257441291": {
+   "name": "영동장어",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1139521945": {
+   "name": "효도치킨 논현점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1334514971": {
+   "name": "하카",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1047462551": {
+   "name": "한우스팟",
+   "cat": "고기",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1740793571": {
+   "name": "우향우 압구정지점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k429895682": {
+   "name": "도산분식 도산공원점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16935839": {
+   "name": "청사포울림",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k36234305": {
+   "name": "벤투스",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1588555621": {
+   "name": "샤브오",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k768274911": {
+   "name": "스키야키 키겐",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1262663291": {
+   "name": "디핀고",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k963654402": {
+   "name": "굽네치킨 학동사거리점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k17806264": {
+   "name": "하모",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k672992354": {
+   "name": "W가나",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k408566345": {
+   "name": "오엔케이푸드",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1137775048": {
+   "name": "남다른감자탕 서울학동사거리점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k547157612": {
+   "name": "맘스터치LAB 도산대로점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k367670242": {
+   "name": "맘스피자 도산대로점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k100903730": {
+   "name": "진관",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1026664215": {
+   "name": "포쿠치나",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k375956041": {
+   "name": "완도1957 학동사거리점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k12053613": {
+   "name": "청국장",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16473181": {
+   "name": "왕소금구이",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1233265459": {
+   "name": "달잔 논현본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k815847239": {
+   "name": "감포도산",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k886919151": {
+   "name": "청담주먹고기",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2040592082": {
+   "name": "미트플레이스",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1356302565": {
+   "name": "해목",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8201511": {
+   "name": "굴비마을",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2031312731": {
+   "name": "보금집 논현본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1225497663": {
+   "name": "예당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k95009418": {
+   "name": "호루몬 규상 논현본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k157629378": {
+   "name": "유원",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16056569": {
+   "name": "이모가있는집 본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8203089": {
+   "name": "금수복국 압구정점",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k24785949": {
+   "name": "두어마리",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1646207646": {
+   "name": "도산어묵당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k178467051": {
+   "name": "철화",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1567231724": {
+   "name": "코메",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k952007606": {
+   "name": "라뽀뜨",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k786123010": {
+   "name": "하마다 도산점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k640797736": {
+   "name": "타코로 쌈바",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k330386453": {
+   "name": "스시사카우",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1024670188": {
+   "name": "슈바빙",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8915439": {
+   "name": "돌곰네",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k70072949": {
+   "name": "도산뚝배기",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1946881778": {
+   "name": "유원",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k9082049": {
+   "name": "생김치오겹살",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k24943998": {
+   "name": "마포숯불갈비",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k940697725": {
+   "name": "미남옥",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k792791803": {
+   "name": "스프링클키즈클럽",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k20125427": {
+   "name": "루비떡볶이",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1897257199": {
+   "name": "씨마크",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1934339557": {
+   "name": "480그라디",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1486279958": {
+   "name": "웍셔너리",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k616885245": {
+   "name": "사카바호빈",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10287530": {
+   "name": "동현김밥",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1508981188": {
+   "name": "잠수교집 5호점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k592277697": {
+   "name": "와쇼쿠예인",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k514151131": {
+   "name": "디에프아이더블유",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k20944140": {
+   "name": "광주식당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1458885971": {
+   "name": "다운타우너 청담",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2080948488": {
+   "name": "아루",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k779537287": {
+   "name": "르 봉 구떼",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2032148237": {
+   "name": "초원 강남점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8000567": {
+   "name": "연타발 압구정본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k474785250": {
+   "name": "서원",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1969662272": {
+   "name": "세이지앤버터",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k745334070": {
+   "name": "수린",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k14748715": {
+   "name": "지니",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1033135276": {
+   "name": "더타코부스 NYC압구정점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k43205270": {
+   "name": "요이치",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k744447851": {
+   "name": "파스타예요 강남점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k437242735": {
+   "name": "규카츠정 압구정로데오점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k740513402": {
+   "name": "정미스시",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8109345": {
+   "name": "청담순두부 본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2003827097": {
+   "name": "솔솥 청담점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1944976957": {
+   "name": "조리인",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k442731982": {
+   "name": "어가",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k2106188174": {
+   "name": "예",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1309783648": {
+   "name": "그날",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10843102": {
+   "name": "츠지한 압구정",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k635433007": {
+   "name": "츠지한코리아 츠지한 압구정",
+   "cat": "기타",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1036536748": {
+   "name": "하쿠시",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k491528113": {
+   "name": "옥스도산스테이크앤그릴",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k852799691": {
+   "name": "옥스라이브파이어그릴 도산",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k540245041": {
+   "name": "씨테라스",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k558503389": {
+   "name": "까폼 본점",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1698962620": {
+   "name": "온화다이닝 도산점",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k11892496": {
+   "name": "후꾸짱",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1052348532": {
+   "name": "수지웡",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k123500593": {
+   "name": "아게바",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k18074322": {
+   "name": "파씨오네",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k338343772": {
+   "name": "소문도",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1136678146": {
+   "name": "이태리국시 도산",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k258396043": {
+   "name": "원조마포소금구이 도산점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1599023448": {
+   "name": "세바",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1347518906": {
+   "name": "대삼식당 2호점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k969282150": {
+   "name": "수족관",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k312810588": {
+   "name": "윤서울",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1853599892": {
+   "name": "쿠킹라이브러리",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1223230709": {
+   "name": "부엌데기 압구정점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1004477143": {
+   "name": "상록수 압구정점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2114917980": {
+   "name": "면서울",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k78536783": {
+   "name": "스시결",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k8397392": {
+   "name": "보전식당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k301136196": {
+   "name": "카츠오우 압구정점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2059834543": {
+   "name": "우대포 압구정점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2134471711": {
+   "name": "스시인",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k954907406": {
+   "name": "아르데레",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1612974314": {
+   "name": "텐푸라인",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1597184885": {
+   "name": "삼원가든 별채",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k19351143": {
+   "name": "삼원가든",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2137504202": {
+   "name": "압구정막국수",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k13289272": {
+   "name": "신사쭈꾸미",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k199292167": {
+   "name": "코타바이뎐",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k7962091": {
+   "name": "스웰",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k316453464": {
+   "name": "미림양장",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k141030418": {
+   "name": "모노클 도산",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1151218737": {
+   "name": "애월식당",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2024398248": {
+   "name": "페스카도 청담",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1048266698": {
+   "name": "태오",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1696635679": {
+   "name": "스시아오타",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k12659896": {
+   "name": "도마야끼 덕아웃",
+   "cat": "기타",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10357544": {
+   "name": "리미지",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1499390873": {
+   "name": "D리조트",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16589388": {
+   "name": "옛날돈가스 우동",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1283302631": {
+   "name": "삼원가든 특실",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k395488429": {
+   "name": "양산도 청담점",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k346207534": {
+   "name": "캐비스트리",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1459803254": {
+   "name": "시오",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1728086113": {
+   "name": "이츠돈까스",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k917563522": {
+   "name": "서울몽",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k15619231": {
+   "name": "생선생",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k279053134": {
+   "name": "강남오뎅 압구정직영점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k900430708": {
+   "name": "스카이돔",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k980786911": {
+   "name": "무등산 청담",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1802574770": {
+   "name": "붓처스컷 도산",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1473987411": {
+   "name": "윙스탑 압구정로데오점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k630278994": {
+   "name": "써브웨이 압구정로데오점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k14745468": {
+   "name": "압구정상회",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k348702550": {
+   "name": "제주은희네해장국 강남신사점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k19925752": {
+   "name": "티티그릴",
+   "cat": "아시안",
+   "pricey": true,
+   "when": "all"
+  },
+  "k277885876": {
+   "name": "핸다이닝",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1803076723": {
+   "name": "히키니쿠토코메 도산",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1082421280": {
+   "name": "갓포라멘",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1189949400": {
+   "name": "오케이 치킨앤피자 논현점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k809371128": {
+   "name": "레스쁘아",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k579891207": {
+   "name": "시절우연 청담",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1834768156": {
+   "name": "무안회관 청담점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1473574848": {
+   "name": "고센",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1705639485": {
+   "name": "스시노을",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k7894375": {
+   "name": "벽돌해피푸드 압구정점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k261977761": {
+   "name": "마르르",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2058169302": {
+   "name": "압구정제주집 본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1515911458": {
+   "name": "더기와 압구정본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1696674434": {
+   "name": "강진문어보쌈 압구정직영점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8098721": {
+   "name": "최가네버섯샤브매운탕칼국수 본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1345101925": {
+   "name": "열짱닭발 압구정로데오점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1022950499": {
+   "name": "포이브하우스",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k11257354": {
+   "name": "현대정육식당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k24949293": {
+   "name": "오스테리아 꼬또 압구정점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k206649069": {
+   "name": "압구정우수미",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1751005775": {
+   "name": "을지다락 도산공원",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k709646921": {
+   "name": "노뜨르",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k816901703": {
+   "name": "담솥 압구정점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k12004839": {
+   "name": "한빛",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16065669": {
+   "name": "다모아분식",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k7884797": {
+   "name": "버거킹 청담점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8163082": {
+   "name": "강남면옥 신사점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k21417385": {
+   "name": "강남주먹고기",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k26926368": {
+   "name": "스시코마츠",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k46781292": {
+   "name": "장훈",
+   "cat": "기타",
+   "pricey": false,
+   "when": "all"
+  },
+  "k533557010": {
+   "name": "미소미역",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k549452630": {
+   "name": "코너피자 조인트 압구정",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1337441993": {
+   "name": "물좋은참치포차",
+   "cat": "일식",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1495423087": {
+   "name": "곰국수",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8523627": {
+   "name": "주몽",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k796423011": {
+   "name": "육도담 압구정로데오점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16765360": {
+   "name": "청석골",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1763940559": {
+   "name": "우미각 본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1513028239": {
+   "name": "풍천가 청담점",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k24010315": {
+   "name": "골드피쉬딤섬퀴진",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2050912109": {
+   "name": "바른원웨이",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1681238807": {
+   "name": "만카이",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k25732735": {
+   "name": "양마니 청담직영점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k511051678": {
+   "name": "Blue by 필레터",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k778995622": {
+   "name": "영삼이네우정소갈비 압구정로데오점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k443022401": {
+   "name": "아이언케이스",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1240677777": {
+   "name": "돈까스전원 압구정로데오점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k147601266": {
+   "name": "수아당 강남점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1682591342": {
+   "name": "공감에프앤비 FNB",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k7997364": {
+   "name": "연탄공장",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10752275": {
+   "name": "이즈미 본점",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1914945426": {
+   "name": "갓포우오 압구정로데오점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1483630226": {
+   "name": "목탄장 도산점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1567439123": {
+   "name": "우미우니",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1164089587": {
+   "name": "양빠",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k18558492": {
+   "name": "죠스떡볶이 학동사거리점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1680004439": {
+   "name": "파삐쓰타코",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k835935136": {
+   "name": "스시미루",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k853920783": {
+   "name": "이스트",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1605512803": {
+   "name": "압구정샌드위치 본점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16036391": {
+   "name": "호남식당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k462456153": {
+   "name": "대호반점1987",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1064641354": {
+   "name": "소두리",
+   "cat": "고기",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k2143205943": {
+   "name": "샐러디 압구정로데오역점",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1306723314": {
+   "name": "설백가마순대국",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k811392664": {
+   "name": "사랑호 수산포차",
+   "cat": "한식",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k27491382": {
+   "name": "솔빈덕",
+   "cat": "기타",
+   "pricey": false,
+   "when": "all"
+  },
+  "k355180800": {
+   "name": "세븐패티버거 압구정로데오점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k436651553": {
+   "name": "몽고네",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1616270313": {
+   "name": "영동교집 청담직영점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2097089892": {
+   "name": "우수",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k837168921": {
+   "name": "스미카츠",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10354253": {
+   "name": "마오 청담동점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k393491454": {
+   "name": "지평옥",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1895081236": {
+   "name": "소넷다이닝",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k16847108": {
+   "name": "김가네 도산로점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10150607": {
+   "name": "광부 본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k486727763": {
+   "name": "인미소 도산점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k726851032": {
+   "name": "황회장집",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k558925853": {
+   "name": "쭈꾸미도사 압구정로데오점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k123453574": {
+   "name": "커리샵 단풍",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8071541": {
+   "name": "장사랑",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1545442618": {
+   "name": "본우리집밥 소망교회점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1473250278": {
+   "name": "츄우카",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k9474243": {
+   "name": "추풍령칼삼겹살 압구정점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1122716123": {
+   "name": "스시소우",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1112636752": {
+   "name": "수아에피스",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k61633701": {
+   "name": "샤브인 서울 압구정로데오점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k521843906": {
+   "name": "크레이지타이",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k864103404": {
+   "name": "도산정육 청담본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1720796285": {
+   "name": "제주옥탑 블랙BBQ점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2074540993": {
+   "name": "노이르뮤직후카바",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1444925263": {
+   "name": "60계치킨 압구정점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1220695970": {
+   "name": "케이에프오오디",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k862805506": {
+   "name": "도산정육블랙 청담본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1828674706": {
+   "name": "레스토랑 산 SAN",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1663188365": {
+   "name": "MUU한우다이닝 청담",
+   "cat": "고기",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1554621506": {
+   "name": "탕화쿵푸마라탕 압구정로데오직영점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2125064473": {
+   "name": "남산터",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1924275457": {
+   "name": "청양해물칼국수",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1800258461": {
+   "name": "NOR",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k956080267": {
+   "name": "우모크",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1189518694": {
+   "name": "마일드하이클럽",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1843680043": {
+   "name": "프렌치쪽갈비 본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k433321933": {
+   "name": "스시오오타니",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1646959581": {
+   "name": "카이센클럽",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1771879956": {
+   "name": "카이쇼 청담본점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2093755039": {
+   "name": "안시국수",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1336075711": {
+   "name": "류",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1322250602": {
+   "name": "소풍",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k713232570": {
+   "name": "스시하루",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1562438951": {
+   "name": "보울룸",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k379070397": {
+   "name": "1974 비래옥 압구정로데오점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k893296478": {
+   "name": "화려한우",
+   "cat": "고기",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1184102335": {
+   "name": "북촌손만두 청담점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27489305": {
+   "name": "쿠시마사",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1572199427": {
+   "name": "스시유키",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k167355290": {
+   "name": "애모꽃게장",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k432402646": {
+   "name": "BHC치킨 압구정로데오점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k66544493": {
+   "name": "일일향 압구정1호점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2127548406": {
+   "name": "화연산장",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1490628784": {
+   "name": "선데이버거클럽",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k155077826": {
+   "name": "하와이조개 압구정점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k984701541": {
+   "name": "마루바이쿠시마사",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1725581600": {
+   "name": "성씨네 삼장집 압구정본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k393332296": {
+   "name": "발아메밀블라썸",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2081530282": {
+   "name": "더파티룸",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k17731989": {
+   "name": "우돈청",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k11114160": {
+   "name": "신영김밥",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k934005903": {
+   "name": "베스트",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k280961490": {
+   "name": "육반상회 압구정점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k860959270": {
+   "name": "사토시",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1014437709": {
+   "name": "더키푸드",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1603323745": {
+   "name": "선셋스위밍샌드위치",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k253325671": {
+   "name": "아베크 청담",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1972526906": {
+   "name": "빈호",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k12332233": {
+   "name": "우찌노카레 압구정점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k382166298": {
+   "name": "룽청",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2072631003": {
+   "name": "포포쌀국수",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1810555145": {
+   "name": "못먹어도고",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1178970746": {
+   "name": "압구정육반",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k190548801": {
+   "name": "어여화",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1274065049": {
+   "name": "르시엘",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1867162682": {
+   "name": "진전복삼계탕 신사점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1102941798": {
+   "name": "연스시",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1028210565": {
+   "name": "요시야",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1655519181": {
+   "name": "샐러드몬스터 본점",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k702101646": {
+   "name": "늘봄",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1190367726": {
+   "name": "비",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1669156722": {
+   "name": "오성팔복반점 강남점",
+   "cat": "기타",
+   "pricey": false,
+   "when": "all"
+  },
+  "k797407989": {
+   "name": "리틀케어레시피 강남점",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1060470396": {
+   "name": "20회수산",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k106149480": {
+   "name": "그린앤그릴 강남구청역점",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1210819838": {
+   "name": "말김차림리담",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1661211071": {
+   "name": "구일삼겹 강남본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k616148679": {
+   "name": "우텐더 서울점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k497586034": {
+   "name": "시드니서울",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8121093": {
+   "name": "가람국시 청담점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1708910479": {
+   "name": "바탄",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8041145": {
+   "name": "이마스시",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27402317": {
+   "name": "압구정곱창 본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k220544074": {
+   "name": "깐부치킨 청담점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k12602260": {
+   "name": "이닝",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1079980689": {
+   "name": "압구정순대국 신사점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k717814801": {
+   "name": "설야갈비 청담",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k465077663": {
+   "name": "데머룽",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k7929136": {
+   "name": "삼호짱뚱이",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k586392021": {
+   "name": "원할머니보쌈족발 압구정배달점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k12543930": {
+   "name": "봉추찜닭 압구정로데오점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1796473681": {
+   "name": "맡김차림리담",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k755840469": {
+   "name": "파워플랜트",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k11354494": {
+   "name": "오아시스 청담점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1615184494": {
+   "name": "우정",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k95768738": {
+   "name": "한미옥 청담본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1986848101": {
+   "name": "레브어",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1033117851": {
+   "name": "이수쭈꾸미",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1290144485": {
+   "name": "미미미가든 청담점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k33201237": {
+   "name": "서강쇠떡볶이 압구정로데오본점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k581057949": {
+   "name": "더팔당 본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k794862144": {
+   "name": "도담게장",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k156485514": {
+   "name": "아카리 청담",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k208155015": {
+   "name": "사카바 슈하이",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k747326886": {
+   "name": "딸랏 압구정",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1522238528": {
+   "name": "우감만족",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1146706900": {
+   "name": "1808",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1963813827": {
+   "name": "흑우정 압구정로데오 본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k15512767": {
+   "name": "압구정식당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1964668557": {
+   "name": "무명떡볶이 본점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1945852117": {
+   "name": "뿅뿅샤제록",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1591650744": {
+   "name": "진시황",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1093984278": {
+   "name": "에이든청담호텔 에이라운지",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1459674358": {
+   "name": "꼼모아 강남점",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1026544751": {
+   "name": "해연by청담",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1862161808": {
+   "name": "정마담",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1866830636": {
+   "name": "청담고수 청담점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k830007436": {
+   "name": "게판오분전",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1167794422": {
+   "name": "도슬박",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k259609091": {
+   "name": "팔발라 압구정로데오점",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k25046575": {
+   "name": "뱃고동",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10867025": {
+   "name": "압구정하루",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1698443318": {
+   "name": "육일점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1670974773": {
+   "name": "새우공장 본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2031486142": {
+   "name": "앙상블",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k516292239": {
+   "name": "해바라기",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k52634183": {
+   "name": "일 리조",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k841959510": {
+   "name": "R고기",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k950995727": {
+   "name": "차라리",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1767056732": {
+   "name": "더나인클럽",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1952752710": {
+   "name": "칸티크",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1480376719": {
+   "name": "담우",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1809597819": {
+   "name": "미르차이9",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16084476": {
+   "name": "동막촌",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k850712723": {
+   "name": "루위",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1377334197": {
+   "name": "박대박부대찌개 압구정직영점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k789251694": {
+   "name": "스시카이레이",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1441213106": {
+   "name": "송옥 압구정분점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1852734106": {
+   "name": "청담91떡볶이",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1531426152": {
+   "name": "보타닉 청담",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k481571801": {
+   "name": "도멘 청담",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k11916310": {
+   "name": "소망김밥",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k183499108": {
+   "name": "오스테리아수",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k990897094": {
+   "name": "더 가즈믹 테이블",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1824066949": {
+   "name": "우뱅",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k636836109": {
+   "name": "더일",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1157080082": {
+   "name": "스테이풀리쉬",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k14601805": {
+   "name": "두루",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k578716545": {
+   "name": "한상더테이블",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k562065868": {
+   "name": "비스트로 주나",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k634970976": {
+   "name": "대삼식당",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k844326588": {
+   "name": "우루후 서울",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k26821640": {
+   "name": "우미학 압구정 본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k9323399": {
+   "name": "원조초가집",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k26572124": {
+   "name": "울프강스테이크하우스 청담점",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k2118060707": {
+   "name": "시퀀스",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k825871944": {
+   "name": "재수돈감자탕 청담점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1867349374": {
+   "name": "압구정고깃집 본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1463891281": {
+   "name": "압구정고깃집 더프라이빗",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k12445208": {
+   "name": "닭으로가 압구정본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k240353906": {
+   "name": "리즈서울",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1537740627": {
+   "name": "보승회관 압구정로데오역점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k21401237": {
+   "name": "명인등심 압구정본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2010673091": {
+   "name": "오프닝",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k418294390": {
+   "name": "스시타키자와",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k662625733": {
+   "name": "미가키",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8189461": {
+   "name": "교촌치킨 압구정신사점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k287176773": {
+   "name": "플라야라운지",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k806548984": {
+   "name": "연무장샤브 압구정본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2051548735": {
+   "name": "청담만옥",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1479587278": {
+   "name": "제일영동부두",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k36071793": {
+   "name": "쁘띠팔레",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k14529630": {
+   "name": "경복궁 압구정점",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1143208128": {
+   "name": "위트",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k45177415": {
+   "name": "타임",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10452008": {
+   "name": "불이아 강남점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27440495": {
+   "name": "136길 육미",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k500654484": {
+   "name": "황재벌",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k15674159": {
+   "name": "삿뽀로 압구정점",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k577992627": {
+   "name": "시고로",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10623825": {
+   "name": "오픈키친",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1815052432": {
+   "name": "하네",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1879711425": {
+   "name": "돈블랑 청담스퀘어점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k12918867": {
+   "name": "가빈아카데미",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k754239933": {
+   "name": "제이아훠궈",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k986449257": {
+   "name": "도시하누 도산점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k624881160": {
+   "name": "호아나",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1786963263": {
+   "name": "쯔루하시후게츠 도산점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k63686205": {
+   "name": "긴자블루 청담스퀘어점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1978831579": {
+   "name": "일판",
+   "cat": "기타",
+   "pricey": false,
+   "when": "all"
+  },
+  "k13715962": {
+   "name": "코코이찌방야 압구정로데오점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k233381504": {
+   "name": "나리식당 청담점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k7849053": {
+   "name": "라우라우",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k70198638": {
+   "name": "창고43 청담점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2137492884": {
+   "name": "고기준 청담",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k341981221": {
+   "name": "르몽뒤뱅",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k774504702": {
+   "name": "도어투도어 압구정점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k660054074": {
+   "name": "타카이 청담점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k598473561": {
+   "name": "나능이 청담점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1815611132": {
+   "name": "드레스덴그린",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k11891768": {
+   "name": "경스시",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k21044791": {
+   "name": "BBQ 논현중앙점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1573714126": {
+   "name": "백미우",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1117573944": {
+   "name": "코즈믹버거 청담점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2111474502": {
+   "name": "스시렌",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k333380402": {
+   "name": "태리네",
+   "cat": "고기",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1410205523": {
+   "name": "타카라",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1825715187": {
+   "name": "VO",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k12747379": {
+   "name": "정식당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1522281632": {
+   "name": "기와강",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k697126617": {
+   "name": "레폴리",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k433638920": {
+   "name": "레커 청담",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1580055949": {
+   "name": "쇼쿠도카이",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1715051993": {
+   "name": "스시모토이",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1338357461": {
+   "name": "스시츠바키",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k940161173": {
+   "name": "기와바",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1388348726": {
+   "name": "기와강 프라이빗",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1444185630": {
+   "name": "나라원테이블",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1750554807": {
+   "name": "사카바온도",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k17207656": {
+   "name": "동천홍 논현점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1189414441": {
+   "name": "고품질",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k528649423": {
+   "name": "아르쥬 청담",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k943659376": {
+   "name": "힙포 압구정로데오본점",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1696151834": {
+   "name": "우피후피 압구정점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k59356844": {
+   "name": "룽지",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k257983423": {
+   "name": "압구정3번출구닭꼬치",
+   "cat": "고기",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1068851079": {
+   "name": "심양 청담본점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1567206275": {
+   "name": "몬드",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2234327": {
+   "name": "도브 서울",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1512849679": {
+   "name": "보보식당",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2138017986": {
+   "name": "닭장수후라이드 강남구청점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k184411184": {
+   "name": "제일양 압구정로데오 본점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k13064473": {
+   "name": "리틀사이공 압구정본점",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k517897835": {
+   "name": "에토스 압구정",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k707172832": {
+   "name": "거부기",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1236855031": {
+   "name": "피자탑 강남1호점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2042271655": {
+   "name": "그린벨",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10446798": {
+   "name": "사보텐 압구정본점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27109443": {
+   "name": "대운목장",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8059543": {
+   "name": "전주식당",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k520451153": {
+   "name": "세광양대창 강남구청점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1639201169": {
+   "name": "리김밥 이마트24청담점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1586954359": {
+   "name": "쿠시루",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16617268": {
+   "name": "함흥면옥 압구정점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1669970814": {
+   "name": "더라운드 청담점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k118421509": {
+   "name": "그리에 청담",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k569005274": {
+   "name": "와일드버팔로",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k299997073": {
+   "name": "피피서울",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1793501912": {
+   "name": "포몬스 압구정로데오점",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2422750": {
+   "name": "수랏간 김치찜&김치찌개 강남점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1454509307": {
+   "name": "아라유",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1608829020": {
+   "name": "타키타테 카마바",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k53859563": {
+   "name": "청담유이",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k12445130": {
+   "name": "델리 압구정점",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1669908481": {
+   "name": "에빠뉘",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10215748": {
+   "name": "금성스테이크부대찌개",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k703961177": {
+   "name": "슬로우 도산",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1984290252": {
+   "name": "안방",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k9597852": {
+   "name": "호화반점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1273385160": {
+   "name": "스시스즈메",
+   "cat": "기타",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1425740765": {
+   "name": "올댓미트돔",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1704974706": {
+   "name": "금성순대",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k17953166": {
+   "name": "옛날집 청담본점",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k598780493": {
+   "name": "네모집 청담점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16057174": {
+   "name": "푸드락",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1634180767": {
+   "name": "뜯고기 강남구청점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2059601273": {
+   "name": "블랙루머",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1378260506": {
+   "name": "쳐비스",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k18260687": {
+   "name": "깐부치킨 강남구청역3번출구점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k462430609": {
+   "name": "매쓰핑거",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k675530819": {
+   "name": "연안숯불 압구정로데오점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8188651": {
+   "name": "고향집",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k14595955": {
+   "name": "웨스턴차이나 압구정점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1937749932": {
+   "name": "이가네양꼬치 강남구청점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1843104144": {
+   "name": "한남동24시뼈다귀감자탕 강남분점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2033080094": {
+   "name": "파에 청담",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k26787421": {
+   "name": "세야스시",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k12119337": {
+   "name": "맥도날드 압구정CGV점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k581077350": {
+   "name": "수이",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1830668748": {
+   "name": "가마치통닭 강남구청역점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k350600129": {
+   "name": "제이스",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k585589573": {
+   "name": "강남물총칼국수",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1108248231": {
+   "name": "기와집 강남직영점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8460934": {
+   "name": "티식스",
+   "cat": "기타",
+   "pricey": false,
+   "when": "all"
+  },
+  "k239518891": {
+   "name": "압구정진주",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2091118619": {
+   "name": "천미향 논현직영점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k888384402": {
+   "name": "온리고앤코",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k40023185": {
+   "name": "투문버드",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k419923613": {
+   "name": "땅코참숯구이 논현직영점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k26118766": {
+   "name": "꼼터 강남본점",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k882857489": {
+   "name": "이가네양꼬치양갈비 압구정점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k2033985372": {
+   "name": "꽃돌이네",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k854487489": {
+   "name": "Ginos NY Pizza 압구정점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k620324880": {
+   "name": "아부라소바",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1593349215": {
+   "name": "짐승고깃간",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1245838364": {
+   "name": "잭슨피자 청담점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10954377": {
+   "name": "가담",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k643590380": {
+   "name": "먹이는매점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k770696914": {
+   "name": "옥된장 강남구청점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2093844452": {
+   "name": "쿠촐로테라짜",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1108767587": {
+   "name": "형수곱창 압구정점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1106070465": {
+   "name": "마우이서재",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k169145043": {
+   "name": "원갈비",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k532632180": {
+   "name": "콩뿌리콩나물국밥 강남구청점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1126323717": {
+   "name": "벨라꼬모",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1455244988": {
+   "name": "순정갈비 강남구청점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1997921938": {
+   "name": "노란상소갈비 강남구청점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1577527773": {
+   "name": "동대문엽기떡볶이 강남구청역점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1321722203": {
+   "name": "장다리",
+   "cat": "고기",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k939318233": {
+   "name": "아더스시",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k226730988": {
+   "name": "강남쪽갈비",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k556233757": {
+   "name": "사계절집 강남본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1456251988": {
+   "name": "논현집",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1608835593": {
+   "name": "옹기집",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k828932257": {
+   "name": "육색찬란",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2001918525": {
+   "name": "본죽&비빔밥cafe 강남구청역점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k609455733": {
+   "name": "티엘알지",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k233400296": {
+   "name": "밝은달",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k7867924": {
+   "name": "목련식당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k15884436": {
+   "name": "비스트로드욘트빌",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1968697014": {
+   "name": "한우촌안동갈비",
+   "cat": "고기",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1190729261": {
+   "name": "도리도리 압구정로데오본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2142358650": {
+   "name": "부베트",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1493770873": {
+   "name": "오레노이키루미치 압구정본점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1018353394": {
+   "name": "이담",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2028060904": {
+   "name": "본토 푸줏간",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16057721": {
+   "name": "탁골감자탕",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1572163441": {
+   "name": "양인환대 보은점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10123111": {
+   "name": "개화옥",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2036686868": {
+   "name": "머드내 갈비살",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16767809": {
+   "name": "코지",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1088077871": {
+   "name": "돼지저금통",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8044179": {
+   "name": "그리노 도산",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k267234386": {
+   "name": "두성전주콩나물국밥 강남구청역점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k21556932": {
+   "name": "피쉬스토리 압구정본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k537925408": {
+   "name": "화통식당",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1840573664": {
+   "name": "뻬를라",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1541417545": {
+   "name": "보승회관 강남구청역점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2144108112": {
+   "name": "뽕사부",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8475048": {
+   "name": "한일관 압구정점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k18153301": {
+   "name": "순천만 압구정본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1997831970": {
+   "name": "미분당 강남구청역점",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k544347111": {
+   "name": "우살롱",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k11186791": {
+   "name": "오대산",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1180805032": {
+   "name": "별달맛집",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k707710660": {
+   "name": "어매떡볶이",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1120567503": {
+   "name": "우정양곱창",
+   "cat": "고기",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k16649018": {
+   "name": "원할머니보쌈족발 강남구청배달점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8122778": {
+   "name": "퀸즈파크 청담점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1045539408": {
+   "name": "라몬",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k7943815": {
+   "name": "설매네",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1769519451": {
+   "name": "펄쉘 청담점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k851643903": {
+   "name": "틈새라면 압구정로데오점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1325901113": {
+   "name": "스시상선",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1173155728": {
+   "name": "만복국수집 압구정로데오",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1990209305": {
+   "name": "강화통통생고기 논현점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1566026758": {
+   "name": "청담우",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1396867918": {
+   "name": "우뚝소곱창 강남구청역점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k613557139": {
+   "name": "학돌이네 논현점",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k2134166440": {
+   "name": "원디그리노스",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k181128560": {
+   "name": "포포인츠바이쉐라톤 서울강남 에볼루션",
+   "cat": "기타",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1938633504": {
+   "name": "스시안",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1283321783": {
+   "name": "담소소사골순대육개장 강남구청역점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k875914424": {
+   "name": "멜츠버거 압구정",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k462067499": {
+   "name": "라벤더",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2106464225": {
+   "name": "명보당",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k57563629": {
+   "name": "동화고옥 더 테라스 청담",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k505665328": {
+   "name": "봄",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k507664279": {
+   "name": "츠키요와",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k362253857": {
+   "name": "평양만두",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k13074351": {
+   "name": "전주감자탕순대국",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10849168": {
+   "name": "청계산갈비살",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16063439": {
+   "name": "맛짱조개",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1418333775": {
+   "name": "꿈에그린 정육식당 강남구청점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1529576495": {
+   "name": "술비치 청담",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1248615345": {
+   "name": "텍사스데브라질 압구정점",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k2007335630": {
+   "name": "치즈룸",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k46433934": {
+   "name": "시추안하우스 압구정점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k665905539": {
+   "name": "고급오복수산",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1849885545": {
+   "name": "미앙",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2007714967": {
+   "name": "쥬이 샤브 앤 스키야키",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1425707446": {
+   "name": "미트앤코스테이트하우스 안다즈서울강남",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1439808251": {
+   "name": "미수동",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1312733658": {
+   "name": "강남어촌조개구이",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1923841820": {
+   "name": "유엔미",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k393043847": {
+   "name": "국수와전",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1526518452": {
+   "name": "삼봉푸줏간 청담점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16983213": {
+   "name": "깡통집",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1284801093": {
+   "name": "팔당족발",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k631696368": {
+   "name": "세화정육식당",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k9411942": {
+   "name": "잘아는밥집",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k803188787": {
+   "name": "온까스",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k26412621": {
+   "name": "스내치 강남본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16475071": {
+   "name": "지리산",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k498348108": {
+   "name": "아부라소바 2호점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k15850657": {
+   "name": "광화문미진 압구정점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k834077771": {
+   "name": "초월",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k988518620": {
+   "name": "싸다김밥 압구정로데오점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1258011392": {
+   "name": "압뚜껑 성곽길점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k13047440": {
+   "name": "미아사이공",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k272055162": {
+   "name": "게방식당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k681049366": {
+   "name": "개방식당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1368349152": {
+   "name": "안다즈 서울 강남 조각보",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k13092552": {
+   "name": "뉴만두집",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k587584319": {
+   "name": "중화객잔 수 강남구청점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2074535686": {
+   "name": "에프케이티제이",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1812816249": {
+   "name": "청담우헌",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1950123074": {
+   "name": "스케줄 청담",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1028259074": {
+   "name": "오스테리아 에덴",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k485257857": {
+   "name": "초벌집",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10637815": {
+   "name": "오미가",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k591933486": {
+   "name": "봉식이옛날왕만두 압구정본점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1339041347": {
+   "name": "토리시키",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k882919682": {
+   "name": "한우면 개나리 압구정본점",
+   "cat": "고기",
+   "pricey": true,
+   "when": "all"
+  },
+  "k21571952": {
+   "name": "스모키살룬",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k22015823": {
+   "name": "자연김밥",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1856090565": {
+   "name": "쎄조니",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k513469775": {
+   "name": "세조니",
+   "cat": "기타",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2008614471": {
+   "name": "델베로",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k114478235": {
+   "name": "와니스",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k21357386": {
+   "name": "js가든 압구정점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k967240802": {
+   "name": "KFC 압구정로데오점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k21359814": {
+   "name": "조우",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1501012661": {
+   "name": "샐러디 압구정역점",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1374463864": {
+   "name": "그랑디르",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k97204597": {
+   "name": "정육공방",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1701866189": {
+   "name": "꽁크",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k353269395": {
+   "name": "히메성곽",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k30380596": {
+   "name": "양양집 압구정점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1725323696": {
+   "name": "사보전진",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1779217087": {
+   "name": "썬더버드 청담점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1195574131": {
+   "name": "카네타",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10462903": {
+   "name": "본죽 압구정로데오점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k21542442": {
+   "name": "동대문엽기떡볶이 압구정직영점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k74548034": {
+   "name": "코이라멘 압구정점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k491227783": {
+   "name": "시래밥상",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1764398042": {
+   "name": "진배족발",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1926213275": {
+   "name": "레스토랑오와이",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k16054117": {
+   "name": "바다등푸른생선구이",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8177726": {
+   "name": "강서면옥 압구정점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1797891566": {
+   "name": "삼남매설렁탕",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k974368697": {
+   "name": "만경면옥",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k806025644": {
+   "name": "아이디",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1843886165": {
+   "name": "슬로우캘리 압구정로데오역점",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1431310106": {
+   "name": "식당민홍",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k997279776": {
+   "name": "노모어피자 압구정점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k21062725": {
+   "name": "우마이",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1269595366": {
+   "name": "BBQ 압구정신구점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k7869569": {
+   "name": "명인만두 강남구청1호점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k327392232": {
+   "name": "청담오후",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1735964711": {
+   "name": "샤오당쟈마라탕 압구정점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8130016": {
+   "name": "평양면옥",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1654815252": {
+   "name": "십이율 청담",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1028935219": {
+   "name": "넘타코",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1514619498": {
+   "name": "메이탄더블랙 압구정점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1390995291": {
+   "name": "반",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1949089271": {
+   "name": "청와옥 본사직영학동점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k659284789": {
+   "name": "카이슌",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k572682639": {
+   "name": "잡담",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1220395279": {
+   "name": "곱재",
+   "cat": "고기",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k20943718": {
+   "name": "팔당닭발&오징어",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2030032655": {
+   "name": "지강한식당 압구정본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8501640": {
+   "name": "영양센타",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2094152038": {
+   "name": "청담순두부 압구정점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k20629874": {
+   "name": "신주쿠야 압구정점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k590008446": {
+   "name": "신사마라탕 압구정1호점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k438791432": {
+   "name": "떡산 압구정점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k770794699": {
+   "name": "후다닥김밥",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1074772568": {
+   "name": "리치비전",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1208844215": {
+   "name": "그린나인",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1281161965": {
+   "name": "강남루",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k119121179": {
+   "name": "레스토랑온",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k898218729": {
+   "name": "팔십상",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1065311519": {
+   "name": "택시파스타 압구정로데오역점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k7846256": {
+   "name": "동천홍",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27478154": {
+   "name": "그린테라스 더청담아트홀점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k14723734": {
+   "name": "장스테이크",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1017825251": {
+   "name": "달빛식당",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1708634672": {
+   "name": "스시코테이",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k13294017": {
+   "name": "청담골",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1261295161": {
+   "name": "무식 본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10911723": {
+   "name": "현경 압구정점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1685420346": {
+   "name": "압구정미역",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k154435751": {
+   "name": "백소정 압구정점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1680764496": {
+   "name": "깐부치킨 압구정역점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k465786662": {
+   "name": "하남돼지집 학동역점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1794299805": {
+   "name": "스케줄코퍼레이션",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k7875394": {
+   "name": "물고기자리",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k750612850": {
+   "name": "노랑통닭 강남구청점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k2133748165": {
+   "name": "오제 오징어제육 압구정",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1855094729": {
+   "name": "서울왕돈까스 압구정점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1265425446": {
+   "name": "함흥당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1579725168": {
+   "name": "르글라스 압구정점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k445430353": {
+   "name": "진전복삼계탕 본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1099415093": {
+   "name": "스시렌쇼",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k18888944": {
+   "name": "김밥천국 압구정점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1336312265": {
+   "name": "갑기회관 강남본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k868096121": {
+   "name": "고끌림 논현점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k312947795": {
+   "name": "무오키",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27514374": {
+   "name": "강남꿀돼지",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1304522420": {
+   "name": "라보스테이크하우스",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1905841835": {
+   "name": "인더키친 몽뜨레셰프 청담본점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k21333203": {
+   "name": "카미스시",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27584230": {
+   "name": "진미평양냉면 별관",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k12567234": {
+   "name": "미카 압구정점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1898655975": {
+   "name": "스시시류",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1696571508": {
+   "name": "무탄 압구정 본점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k22067875": {
+   "name": "뉴델리",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k228497797": {
+   "name": "브루터스앤케이터링",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1480779674": {
+   "name": "피양옥",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k22988001": {
+   "name": "정성담 압구정점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1328490292": {
+   "name": "청년다방 압구정역점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8136754": {
+   "name": "피오렌티나",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10583440": {
+   "name": "안동국시",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k620295257": {
+   "name": "미스티",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1444742393": {
+   "name": "해랑화",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k970862155": {
+   "name": "한끼식사",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1045838130": {
+   "name": "바르다김선생 압구정역점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k130330029": {
+   "name": "후토루 강남구청역점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1927852963": {
+   "name": "압구정소머리국밥",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k86162950": {
+   "name": "두껍삼 청담직영점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1697324221": {
+   "name": "청년다방 강남구청역점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2133265891": {
+   "name": "봉추찜닭 강남구청역점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1964762102": {
+   "name": "후토막스",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k17014148": {
+   "name": "포메인 강남구청역점",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k7834350": {
+   "name": "도미노피자 압구정점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2062887775": {
+   "name": "두지엠아라크렘",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k981336389": {
+   "name": "봉피양 압구정점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k26430344": {
+   "name": "BHC치킨 압구정역점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1594897278": {
+   "name": "묘우 본점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k744607127": {
+   "name": "트리드",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k517847920": {
+   "name": "본가왕뼈감자탕",
+   "cat": "기타",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1854409086": {
+   "name": "본죽&비빔밥cafe 압구정역점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k620066371": {
+   "name": "보슬보슬 압구정본점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k25121593": {
+   "name": "모스버거 익스프레스 강남구청역점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1695841169": {
+   "name": "파머스마켓팥집 압구정",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k983856791": {
+   "name": "우시야",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k658541467": {
+   "name": "진미평양냉면 본관",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k746917651": {
+   "name": "샤오당쟈마라탕 압구정신현대점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k612729539": {
+   "name": "담미온 압구정점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1341632439": {
+   "name": "스시702",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1224432398": {
+   "name": "압구정면옥",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1012483157": {
+   "name": "MOZU",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k143050534": {
+   "name": "본연",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1023331935": {
+   "name": "테판야키소고",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1250460135": {
+   "name": "마초 스테이크",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k9373123": {
+   "name": "제이앤케이",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k469533163": {
+   "name": "블랙버니",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1171975534": {
+   "name": "이속우화 천공",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k9862319": {
+   "name": "아바이왕순대",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k14518008": {
+   "name": "원주추어탕 신사점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k939809660": {
+   "name": "베네베네2010",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2070510927": {
+   "name": "바스티드",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k516415235": {
+   "name": "부철이네",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2102918903": {
+   "name": "어영차풍천민물장어",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k2037859287": {
+   "name": "리김밥 압구정점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1366702238": {
+   "name": "퍼스 PUOS 압구정점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k990830077": {
+   "name": "모퉁이흑미김밥 압구정점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k864943185": {
+   "name": "갓포준X에스테반",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k11892123": {
+   "name": "신미식당",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k734998168": {
+   "name": "정수네",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16876409": {
+   "name": "김밥천국 압구정역점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1770815156": {
+   "name": "비스트로스윙",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k16054917": {
+   "name": "강남고을",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1109519869": {
+   "name": "스시단심강지문",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k36488535": {
+   "name": "석암생소금구이 압구정역점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16054150": {
+   "name": "대감왕족발",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1042080004": {
+   "name": "인생카츠",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k26875724": {
+   "name": "권숙수",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1349966": {
+   "name": "키키발리",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k11941784": {
+   "name": "충무김밥 압구정점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16298418": {
+   "name": "굴세상",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1467935665": {
+   "name": "창해식탁",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k671028154": {
+   "name": "종로빈대떡 압구정점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1547171385": {
+   "name": "이곳",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2013602819": {
+   "name": "인생식당",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1015011775": {
+   "name": "밥스토랑 버디버디스크린골프 논현동점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k13122215": {
+   "name": "병철이네치맛살",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k800801540": {
+   "name": "유유서울",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k17738185": {
+   "name": "깐부치킨 압구정현대백화점점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k7904069": {
+   "name": "베이징덕",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1963572119": {
+   "name": "군밤먹을래꿀밤맞을래",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1674828132": {
+   "name": "비스트로앤트로",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k26353935": {
+   "name": "다이닝무무",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k26505091": {
+   "name": "제주애돈 압구정본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k13139695": {
+   "name": "산동교자관",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1667053969": {
+   "name": "에르바",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k967612194": {
+   "name": "방앗간의정부 압구정직영점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k17213245": {
+   "name": "원일식당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1051371194": {
+   "name": "긴자료코 강남본점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k138470789": {
+   "name": "슈보카가리",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k924823985": {
+   "name": "앤드밀 청담점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1844475944": {
+   "name": "스시한다",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k295655917": {
+   "name": "스페이스유포리아",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k231982402": {
+   "name": "토브",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k18782432": {
+   "name": "콰이",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1612349591": {
+   "name": "압구정떡볶이",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k576110": {
+   "name": "클럽디 카브",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k419384979": {
+   "name": "스시 센렌",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1051105325": {
+   "name": "스니",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k409619500": {
+   "name": "팔도식당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k744008799": {
+   "name": "싸다김밥 압구정역점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k738242912": {
+   "name": "카페타임 서울점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1236861704": {
+   "name": "우리할매떡볶이 압구정점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k921710503": {
+   "name": "서오릉피자 강남논현점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k18750998": {
+   "name": "무교동유정낙지 압구정점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k651774785": {
+   "name": "완도상회전복통닭",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1692811550": {
+   "name": "태능숯불갈비",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k11963313": {
+   "name": "아루일식",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1374795022": {
+   "name": "파파존스 논현점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2096470265": {
+   "name": "스시미나미",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k27477855": {
+   "name": "청담주문진항",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k742016444": {
+   "name": "압구정닭한마리",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1821039069": {
+   "name": "타쿠",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1341058009": {
+   "name": "모노로그 하우스오브신세계청담점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27344977": {
+   "name": "홍반장 신의주찹쌀순대감자탕",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1850326045": {
+   "name": "배떡 압구정점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1244193310": {
+   "name": "강남철판요리",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k530878381": {
+   "name": "길채정",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1461041591": {
+   "name": "mmn",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k885843355": {
+   "name": "야스노야지로 압구정점",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k351774218": {
+   "name": "써브웨이 압구정역점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k18742645": {
+   "name": "호무랑",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1048316663": {
+   "name": "해방촌닭 신세계청담점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1753564399": {
+   "name": "아난티 앳 강남 베케트",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k765501007": {
+   "name": "아난티 앳 강남 쁘아쏭",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k19015693": {
+   "name": "행복한밥상",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k26139067": {
+   "name": "차움레트로아",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2007100531": {
+   "name": "솔밤",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1005331377": {
+   "name": "옥된장 압구정역점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k699742929": {
+   "name": "청초수물회섭국 강남점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k522500805": {
+   "name": "으뜸청담맛집",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k19197482": {
+   "name": "놀부부대찌개 압구정점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k893729744": {
+   "name": "논현감자탕",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k17964641": {
+   "name": "통영마을",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k866711928": {
+   "name": "리브팜 갤러리아백화점 명품관 WEST점",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k560651999": {
+   "name": "야키토리하포우 갤러리아백화점WEST점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1560331928": {
+   "name": "홍박사생고기 강남점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1327316063": {
+   "name": "삼삼뼈국 압구정점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k478881551": {
+   "name": "타블레 갤러리아백화점명품관WEST점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1734048185": {
+   "name": "강민철레스토랑",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k223280474": {
+   "name": "꼬트바이일판 갤러리아백화점WEST점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1718392090": {
+   "name": "페이딤 갤러리아압구정점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2052806684": {
+   "name": "키타이 갤러리아백화점WEST점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1706815777": {
+   "name": "압구정수제도시락 샐러드&샌드위치",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1137146995": {
+   "name": "완도1957",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k957255176": {
+   "name": "등촌샤브칼국수 강남구청역점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k296740017": {
+   "name": "구뜰",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1888729134": {
+   "name": "보타르가 비노",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1358454153": {
+   "name": "구전동화 청담점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k24838807": {
+   "name": "대박생삼겹",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27401709": {
+   "name": "랍스터바 압구정점",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k234584697": {
+   "name": "핌피 갤러리아백화점명품관WEST점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1280456488": {
+   "name": "하츠노스시by코우지",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k992715161": {
+   "name": "활새우 창우수산 강남본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1615871": {
+   "name": "스시나미키",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k717852339": {
+   "name": "레몬그라스타이 강남구청점",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2022704956": {
+   "name": "슬로우캘리 강남구청역점",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1981497682": {
+   "name": "아노브피자 갤러리아WEST점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k21406278": {
+   "name": "창신한우정육식당",
+   "cat": "고기",
+   "pricey": true,
+   "when": "all"
+  },
+  "k7849512": {
+   "name": "떡쌈시대 압구정점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k21535580": {
+   "name": "중식당 청 갤러리아백화점 압구정점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k649658386": {
+   "name": "땀땀 갤러리아백화점웨스트점",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1616903182": {
+   "name": "부타노맥스",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1226673954": {
+   "name": "동봉관 압구정",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k677162724": {
+   "name": "압구정 화차",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k18710698": {
+   "name": "고메이494 갤러리아백화점 WEST점",
+   "cat": "기타",
+   "pricey": false,
+   "when": "all"
+  },
+  "k495392703": {
+   "name": "원스타올드패션드햄버거 갤러리아점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k20636256": {
+   "name": "논골소반",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k511693888": {
+   "name": "작정",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1822742821": {
+   "name": "청담그늘",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k118724323": {
+   "name": "일판함박 갤러리아백화점 WEST점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k18369499": {
+   "name": "오가고",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k7866991": {
+   "name": "목로",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1818553191": {
+   "name": "뱅인타코 갤러리아백화점명품관WEST점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1788208577": {
+   "name": "싸다김밥 강남구청역점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16650213": {
+   "name": "김밥천국 강남구청역점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k860142470": {
+   "name": "오젠",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k247750955": {
+   "name": "소소테이블 갤러리아백화점WEST점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k147807403": {
+   "name": "향동가",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k978082740": {
+   "name": "신사고집 압구정점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k29355657": {
+   "name": "사랑채",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1190665485": {
+   "name": "고래마당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k7719434": {
+   "name": "서울동 갤러리아백화점WEST점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1929045232": {
+   "name": "솥밥신 갤러리아백화점WEST점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10262268": {
+   "name": "대가",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1224188224": {
+   "name": "중앙실비",
+   "cat": "고기",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k247885013": {
+   "name": "라쿵푸 강남구청점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1996955650": {
+   "name": "인생아구찜 강남점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k172833346": {
+   "name": "하나",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1088312358": {
+   "name": "하나(구 김말자)",
+   "cat": "기타",
+   "pricey": false,
+   "when": "all"
+  },
+  "k430706341": {
+   "name": "포메인레드 압구정역점",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k18169903": {
+   "name": "피자헛 압구정역점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k943704674": {
+   "name": "꼬리치는삼겹살",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k897122735": {
+   "name": "페코리노",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1735147080": {
+   "name": "스시에비스",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1117855806": {
+   "name": "롯데리아 압구정역점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1790746996": {
+   "name": "GTS버거 청담점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k915245784": {
+   "name": "요리야희야",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1355293861": {
+   "name": "몽갈비",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k11026324": {
+   "name": "공리 강남구청역점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1171819850": {
+   "name": "낫배드커피&샌드위치 압구정점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1280070127": {
+   "name": "신안가옥",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k245774987": {
+   "name": "꼴라쥬",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k26457126": {
+   "name": "수퍼판",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k13071348": {
+   "name": "이즈 직영점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k70727008": {
+   "name": "메이드",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2094221296": {
+   "name": "짬뽕지존 강남구청점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1137095540": {
+   "name": "샹츠마라 압구정점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k862483440": {
+   "name": "호앙비엣 압구정역점",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k80597978": {
+   "name": "살롱 드 아난티 겐지",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16037952": {
+   "name": "유정식당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1915263562": {
+   "name": "논현닭한마리",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1548646884": {
+   "name": "진전복삼계탕 압구정직영점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1046064084": {
+   "name": "산쪼메 압구정역점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k680133995": {
+   "name": "아부라소바 하나레",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k411660029": {
+   "name": "도나르 압구정점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1582905658": {
+   "name": "뜸들이다 압구정본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1586018808": {
+   "name": "학동수제비",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2050520033": {
+   "name": "이태리부대찌개 학동점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2038516910": {
+   "name": "원디쉬파스타",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k371864982": {
+   "name": "우리 청담점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k24662466": {
+   "name": "본스치킨 강남구청역점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k988796424": {
+   "name": "엘이베리코 압구정점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k57329074": {
+   "name": "그림나베 학동역점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k17377605": {
+   "name": "동천홍 학동점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8095097": {
+   "name": "충무상회",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2057040497": {
+   "name": "테이블105",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1959091192": {
+   "name": "쇼미더크랩 압구정점",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k229592159": {
+   "name": "와쇼쿠 키라메키",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k8148270": {
+   "name": "현대낙지집",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1524939874": {
+   "name": "에그드랍 압구정역점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1555439101": {
+   "name": "우월",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2090301584": {
+   "name": "프랭크버거 압구정역점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1905068835": {
+   "name": "르므니에치즈",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k12643922": {
+   "name": "아비꼬 압구정역점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1262116057": {
+   "name": "티톨로",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2125476253": {
+   "name": "루체파스타",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k405899205": {
+   "name": "이불덮밥 압구정점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2140250853": {
+   "name": "토우",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k441412796": {
+   "name": "성덕",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16762173": {
+   "name": "모퉁이",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1442335553": {
+   "name": "오기",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2040587786": {
+   "name": "밥따봉도시락",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k610210855": {
+   "name": "통영다찌",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8306074": {
+   "name": "단스시 논현본점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k86222547": {
+   "name": "논현삼겹",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1645452370": {
+   "name": "슬로우캘리 압구정점",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2138912352": {
+   "name": "청담윤",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27322848": {
+   "name": "소나무",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k13306360": {
+   "name": "무아국수 강남구청점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8570795": {
+   "name": "KFC 강남구청역점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k473630356": {
+   "name": "미무",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k24073852": {
+   "name": "밍글스",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27298029": {
+   "name": "헤야",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k318511959": {
+   "name": "제철소",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k415888006": {
+   "name": "토파",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1621429322": {
+   "name": "스시토보시",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1712079660": {
+   "name": "마봉양꼬치 압구정점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1247740472": {
+   "name": "신사꽃등심",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1301218884": {
+   "name": "미래옥",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1113615076": {
+   "name": "키슌",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k17058166": {
+   "name": "다왕래",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k9661372": {
+   "name": "그때그집",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k19501212": {
+   "name": "대한극장 압구정점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k983718245": {
+   "name": "대경식 압구정점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1117702712": {
+   "name": "진전복삼계탕 강남구청점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k97228163": {
+   "name": "미피아체",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k806582420": {
+   "name": "순대실록 강남구청점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k651713938": {
+   "name": "스시상현",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1716924374": {
+   "name": "엘리엇그릴 청담",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k20611871": {
+   "name": "지호한방삼계탕 압구정역점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k818121840": {
+   "name": "포인비에트 강남구청역본점",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k763539774": {
+   "name": "코마츠",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k427978985": {
+   "name": "죠야 서울",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16737435": {
+   "name": "백암왕순대",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k827556234": {
+   "name": "백소정 강남구청점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k264840274": {
+   "name": "수차이나24시",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k729986924": {
+   "name": "청춘어부",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2081878632": {
+   "name": "논현삼계탕 본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k888761347": {
+   "name": "돈돌부대찌개매니아 강남구청역점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k736291693": {
+   "name": "무니",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16557397": {
+   "name": "정가네손칼국수",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1804104527": {
+   "name": "샤브식당 상하 청담점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16734104": {
+   "name": "맛고을",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1375080913": {
+   "name": "미토우",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1264539532": {
+   "name": "맘스터치 강남압구정점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16649047": {
+   "name": "왕창칼국수",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k181902476": {
+   "name": "신사동뽈살",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1277578481": {
+   "name": "이도 청담",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27244736": {
+   "name": "김밥다옴 학동역본점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k12140312": {
+   "name": "몽중헌 청담점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k11289621": {
+   "name": "고향식당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k782995167": {
+   "name": "제3한강교",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1976649040": {
+   "name": "아부라소바",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k221175451": {
+   "name": "고기가득덮밥 강남구청역점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k883795250": {
+   "name": "우리식당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k17100607": {
+   "name": "오늘잡은안동갈비 신사점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1950162": {
+   "name": "석종",
+   "cat": "기타",
+   "pricey": false,
+   "when": "all"
+  },
+  "k561814157": {
+   "name": "미수국밥 청담점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k15975342": {
+   "name": "고향집 청담점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k25810813": {
+   "name": "곰작골나주곰탕 학동점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k19501186": {
+   "name": "장평식당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1269053221": {
+   "name": "신신양꼬치",
+   "cat": "중식",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1480817290": {
+   "name": "신촌설렁탕 강남구청역점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k423334112": {
+   "name": "이층고깃집 강남구청역점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16906186": {
+   "name": "별미식당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k866704531": {
+   "name": "와슈다이닝 슈토 2호점",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1568188934": {
+   "name": "구정족발",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k21852012": {
+   "name": "롯데리아 학동역점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k663447967": {
+   "name": "우주옥",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k423839672": {
+   "name": "소류",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1582046362": {
+   "name": "청담13",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k15101805": {
+   "name": "KFC 학동역2점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k781904767": {
+   "name": "모모유부 강남구청점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k26855131": {
+   "name": "후랜드 김밥",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1873233533": {
+   "name": "스시소노모노",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k64715969": {
+   "name": "학동집",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1385532810": {
+   "name": "미가한우&치킨처럼",
+   "cat": "고기",
+   "pricey": true,
+   "when": "all"
+  },
+  "k470123966": {
+   "name": "텐쇼2018",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k974062181": {
+   "name": "정육식당",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1297075625": {
+   "name": "행복한만두 신사본점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k134013714": {
+   "name": "강남곱창",
+   "cat": "고기",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1926892988": {
+   "name": "오타이",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k218440385": {
+   "name": "대가연 강남본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k25002367": {
+   "name": "맥도날드 강남구청점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1713038062": {
+   "name": "본가스시 현대백화점 압구정본점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k13102233": {
+   "name": "세종한우 학동역점",
+   "cat": "고기",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1715918915": {
+   "name": "휴135다온반상",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1289224278": {
+   "name": "샤브카덴 현대백화점 압구정본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k13319398": {
+   "name": "병어밥집",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10445683": {
+   "name": "BBQ 압구정점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1644196362": {
+   "name": "단백하루",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k24704710": {
+   "name": "청라",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27549014": {
+   "name": "까미구이집",
+   "cat": "고기",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k620224715": {
+   "name": "제주흑냉삼",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1755023869": {
+   "name": "오케이포케 압구정",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1265607649": {
+   "name": "한솔냉면 현대백화점압구정본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1375264890": {
+   "name": "왕자장어",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k21414358": {
+   "name": "이즈미 현대백화점압구정본점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k418831125": {
+   "name": "한남북엇국 청담점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k11215877": {
+   "name": "하하",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1806203674": {
+   "name": "난랑",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1179285387": {
+   "name": "정담반 현대백화점 압구정본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k25550259": {
+   "name": "하하도시락",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16036561": {
+   "name": "제주흙돼지손큰쭈꾸미",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k21416787": {
+   "name": "솜리",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1333824206": {
+   "name": "새르",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1867941376": {
+   "name": "툭툭누들 현대백화점압구정본점",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1904878006": {
+   "name": "해장왕양평해장국 강남학동역본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k484791301": {
+   "name": "볼트스테이크하우스",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1461267363": {
+   "name": "볼트",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k9934784": {
+   "name": "전주맛자랑",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k26429267": {
+   "name": "묵호일식",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k23068927": {
+   "name": "크리스탈제이드 압구정본점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k527159312": {
+   "name": "키노이에파티",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2097387035": {
+   "name": "양구식당",
+   "cat": "한식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1860193066": {
+   "name": "맘스터치LAB 학동역점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k903463992": {
+   "name": "올데이피자",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1465812451": {
+   "name": "보네르 신사",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k368875462": {
+   "name": "다이닝상석",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k260776667": {
+   "name": "맘스피자 학동역점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k21414883": {
+   "name": "도원스타일 현대백화점압구정본점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k270914334": {
+   "name": "라미띠에",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k298975585": {
+   "name": "이닛(INNIT)",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k100755563": {
+   "name": "가겐by최준호",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k1997578373": {
+   "name": "담미온 학동점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k852114673": {
+   "name": "월드맛집",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1051746541": {
+   "name": "싸다김밥 학동역점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27402029": {
+   "name": "서울만두 현대압구정본점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k50408315": {
+   "name": "고명 현대백화점압구정본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1694303239": {
+   "name": "시티마르쉐 현대백화점압구정본점",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1924987067": {
+   "name": "거대곰탕 현대백화점압구정본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k756012300": {
+   "name": "앤헤이븐 압구정현대본점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k13330970": {
+   "name": "일치프리아니 현대압구정점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k379944772": {
+   "name": "미야기 현대백화점압구정본점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1960788354": {
+   "name": "원픽",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k112191823": {
+   "name": "가지가지바이수퍼판",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16417985": {
+   "name": "낭만식당",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k15805077": {
+   "name": "현대그린푸드 현대백화점본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k15662590": {
+   "name": "티케",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1216056175": {
+   "name": "슈슈차이",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k22763355": {
+   "name": "기꾸",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1238633877": {
+   "name": "두사라 청담",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1094863039": {
+   "name": "커브라운지",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1586983578": {
+   "name": "미스강",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8106689": {
+   "name": "가야",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k12887324": {
+   "name": "깐부치킨 학동역점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1212472221": {
+   "name": "학동부대",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k540731064": {
+   "name": "모스가든",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k709857238": {
+   "name": "우천식육식당 강남구청점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1850095745": {
+   "name": "대관령토종한우 압구정점",
+   "cat": "고기",
+   "pricey": true,
+   "when": "all"
+  },
+  "k679362334": {
+   "name": "테니하우스",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1284531136": {
+   "name": "압구정춘천막국수",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2051220883": {
+   "name": "스시사카바 압구정점",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k496373194": {
+   "name": "강남쌀국수",
+   "cat": "아시안",
+   "pricey": false,
+   "when": "all"
+  },
+  "k17944368": {
+   "name": "바다양푼이동태탕 강남논현점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k532588425": {
+   "name": "소주물 학동역점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2016508167": {
+   "name": "오늘고래",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1260726012": {
+   "name": "김치옥 학동역점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1241917773": {
+   "name": "함께하는밥상 Spoon10",
+   "cat": "기타",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16878382": {
+   "name": "논현빈대떡",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k654720972": {
+   "name": "엠제이부대찌개",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k487493699": {
+   "name": "압구정로바",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27233317": {
+   "name": "숯",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k112882939": {
+   "name": "오오쥬",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k18442419": {
+   "name": "강남김밥",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k297520115": {
+   "name": "우화 학동본점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27514811": {
+   "name": "고래잡아먹은낙지",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k18754776": {
+   "name": "떡존 신사점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1940351197": {
+   "name": "에스원",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k26965641": {
+   "name": "송탄부대찌개 본점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k169705122": {
+   "name": "가마솥순대국밥 학동역점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k86629972": {
+   "name": "에이스",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k406790757": {
+   "name": "마마카세",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16057656": {
+   "name": "압구정김밥",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1357414681": {
+   "name": "인덕원비빔국수 신사직영점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k16849400": {
+   "name": "덕수궁해물칼국수",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1676323155": {
+   "name": "허당맛선생",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k980628191": {
+   "name": "미쓰냉삼",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1336798749": {
+   "name": "무아",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k12049260": {
+   "name": "명동칼국수",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1300821716": {
+   "name": "홈푸드구내식당",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1991492644": {
+   "name": "퍼프룸",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1967178742": {
+   "name": "비폴릭",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1514808377": {
+   "name": "청담미역 압구정점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k12006731": {
+   "name": "로얄라운지",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k813366881": {
+   "name": "뷔페 패밀리아 임피리얼 팰리스",
+   "cat": "기타",
+   "pricey": false,
+   "when": "all"
+  },
+  "k10216264": {
+   "name": "길손",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k16559847": {
+   "name": "명동칼국수샤브샤브 학동역점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k26794399": {
+   "name": "봉밀가 강남구청점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k18630329": {
+   "name": "행복이싹트면비빔밥",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k118887441": {
+   "name": "오또상라멘",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1496365383": {
+   "name": "번들",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1788071646": {
+   "name": "도순",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k171486785": {
+   "name": "마선생얼큰국밥 강남구청점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1957463183": {
+   "name": "스시사인조",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k323350862": {
+   "name": "선비칼국수 강남보건소점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1359742601": {
+   "name": "삼청당 압구정점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k706361129": {
+   "name": "Onyva 오니바",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8149785": {
+   "name": "강남돌곱창",
+   "cat": "고기",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k1349947259": {
+   "name": "옥토퍼스978",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k822944024": {
+   "name": "그리크",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k669198861": {
+   "name": "진심우",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1021695277": {
+   "name": "린다린다",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1020464998": {
+   "name": "망고",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1784630600": {
+   "name": "스시마츠모토",
+   "cat": "일식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k499729848": {
+   "name": "씨에스피",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1669070793": {
+   "name": "레스토랑덱스터",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k435025515": {
+   "name": "리알토",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k647843646": {
+   "name": "다이닝나리",
+   "cat": "양식",
+   "pricey": true,
+   "when": "all"
+  },
+  "k552053480": {
+   "name": "틈새라면 신사점",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k21325608": {
+   "name": "h450",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1894995518": {
+   "name": "키고",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k862485396": {
+   "name": "알로하포케 학동본점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k209997155": {
+   "name": "더 더치 치즈앤모어 강남구청점",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k27594407": {
+   "name": "브라운돈까스 강남구청역점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k68974789": {
+   "name": "시드니샌드위치",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1466541169": {
+   "name": "당신이선택한인생치킨 강남구청점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k639081332": {
+   "name": "키보우",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k926521065": {
+   "name": "샐러리아 강남구청역점",
+   "cat": "샐러드",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1886491789": {
+   "name": "밥석이조",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1798942656": {
+   "name": "삼성동돼지김치찜",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1593435434": {
+   "name": "쿠킹파파덮밥도시락",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k5289374": {
+   "name": "엘픽",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1634200423": {
+   "name": "현대그린푸드 현대빌딩",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "all"
+  },
+  "k17122716": {
+   "name": "우리김밥",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k2018412716": {
+   "name": "춘리마라탕 압구정점",
+   "cat": "중식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k13640711": {
+   "name": "소노야 강남구청점",
+   "cat": "일식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1147437322": {
+   "name": "돈만은소",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1800775593": {
+   "name": "김밥친구들",
+   "cat": "분식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1969401361": {
+   "name": "다온바이뱀부",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k970341270": {
+   "name": "본도시락 압구정역점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k209578530": {
+   "name": "그라도스",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k8196340": {
+   "name": "굽네치킨 청담점",
+   "cat": "버거·치킨",
+   "pricey": false,
+   "when": "dinner"
+  },
+  "k18425959": {
+   "name": "봉피양 청담점",
+   "cat": "고기",
+   "pricey": false,
+   "when": "all"
+  },
+  "k109202462": {
+   "name": "곰탕랩(곰탕LAB)",
+   "cat": "기타",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1213397685": {
+   "name": "테이블스푼 청담점",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k24811901": {
+   "name": "스파게티스토리",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k26842263": {
+   "name": "순천만",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1785071490": {
+   "name": "무사사비",
+   "cat": "기타",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1565367501": {
+   "name": "쵸이닷",
+   "cat": "양식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1877325293": {
+   "name": "정담가옥",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  },
+  "k1439007159": {
+   "name": "대서에프앤비",
+   "cat": "한식",
+   "pricey": false,
+   "when": "all"
+  }
+ },
+ "cafe": {
+  "k2112087659": {
+   "name": "파티온카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k21442160": {
+   "name": "카페마당",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k173829175": {
+   "name": "골든구스 서울유니크",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1333809563": {
+   "name": "스타벅스 호림아트센터점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1611616845": {
+   "name": "트키 도산",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1713370492": {
+   "name": "디어달리아 도산플래그십스토어",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k7948829": {
+   "name": "세시셀라 도산공원점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1872387720": {
+   "name": "솔라벨",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k173542225": {
+   "name": "딥하우스 도산본점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1799524549": {
+   "name": "마켓오네이처카페 압구정점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k133524863": {
+   "name": "배스킨라빈스 청담점",
+   "cat": "아이스크림·빙수",
+   "when": "all"
+  },
+  "k1709592070": {
+   "name": "코브",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1818342272": {
+   "name": "카멜커피 3호점 도산1호점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k5923886": {
+   "name": "투썸플레이스 청담CGV스윗바점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k166208457": {
+   "name": "매머드커피익스프레스 논현언주로점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1490822604": {
+   "name": "카페베이직먼트",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k429685631": {
+   "name": "카페인4호",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k24484900": {
+   "name": "폴바셋 현대모터스튜디오서울점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k173987056": {
+   "name": "메가MGC커피 논현동현점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1251838491": {
+   "name": "파지티브호텔 클럽하우스 도산",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1327836798": {
+   "name": "스몰띵",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1304046572": {
+   "name": "오와케이크 도산직영점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k11791888": {
+   "name": "전광수커피하우스 학동사거리점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k948148619": {
+   "name": "바나프레소 도산논현점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k27513632": {
+   "name": "이디야커피 도산사거리점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k27086658": {
+   "name": "스타벅스 학동사거리점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1032646285": {
+   "name": "던킨 원더스청담점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1859867001": {
+   "name": "컴포즈커피 논현스마일점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1724671217": {
+   "name": "부케드뺑",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1587106217": {
+   "name": "투썸플레이스 도산공원사거리점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k52027889": {
+   "name": "랑꼬뉴",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k451662355": {
+   "name": "리틀치프 신사점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1983547156": {
+   "name": "블루폴라 도산점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k954348165": {
+   "name": "천장지구 서울",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1234712974": {
+   "name": "코르트",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2118255457": {
+   "name": "띠띠빵빵",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k14582402": {
+   "name": "한양떡집",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1157341346": {
+   "name": "이스트도산",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k400475607": {
+   "name": "카페유나스",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k123522085": {
+   "name": "차보이",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1591876131": {
+   "name": "이디야커피 강남나누리병원점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k413137032": {
+   "name": "백미당 본점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1550028697": {
+   "name": "헤븐몰",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2050876777": {
+   "name": "애주가의책방",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k527769449": {
+   "name": "캔버스케이크",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1147953240": {
+   "name": "스탠다드브레드 도산",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1373153656": {
+   "name": "휴고 도산",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1326977313": {
+   "name": "업스탠딩커피 헬리녹스웨어 도산공원점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k27490966": {
+   "name": "파이굽는집 논현본점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k348276052": {
+   "name": "노티드 청담",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1187248671": {
+   "name": "솔",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2844778": {
+   "name": "한남베르그 도산점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1716609064": {
+   "name": "위클리베이글 도산공원사거리점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k325284241": {
+   "name": "지엠엘 도산",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2087878700": {
+   "name": "번",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k561290999": {
+   "name": "카멜커피 6호점 도산2호점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k821206250": {
+   "name": "이야이야 앤 프렌즈 도산",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k507311553": {
+   "name": "누데이크 하우스 노웨어 도산",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k670993313": {
+   "name": "Liam's Cakery",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k27185833": {
+   "name": "빽다방 강남소망점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1432465532": {
+   "name": "스와로브스키카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2068528246": {
+   "name": "갤러리씨엔",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1650725140": {
+   "name": "산알베르토카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1710015537": {
+   "name": "스타벅스 도산사거리점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1413161386": {
+   "name": "일리카페 두산건설점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k267105091": {
+   "name": "키즈니",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k257018920": {
+   "name": "니브",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k393564020": {
+   "name": "쿠라리에",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k741794211": {
+   "name": "플디 케이크하우스 압구정점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1619654028": {
+   "name": "공원 스크립트 도산",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k763464068": {
+   "name": "이디야커피 강남도산점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1450618291": {
+   "name": "에센허브커피 논현점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k169250072": {
+   "name": "카페델라루즈",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1938726353": {
+   "name": "치즈앤",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k8105442": {
+   "name": "커피빈 영동고앞점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1186635518": {
+   "name": "오펜드",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k601384930": {
+   "name": "여가생활",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1250077603": {
+   "name": "노르디",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k798479886": {
+   "name": "아이엠아사이",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1731519361": {
+   "name": "마켓728",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k81925925": {
+   "name": "자연도소금빵 도산점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k124045077": {
+   "name": "그라운드8",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1065480249": {
+   "name": "칠링 압구정로데오점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k326197229": {
+   "name": "카페이니",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1656879981": {
+   "name": "메가MGC커피 학동사거리점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1623559523": {
+   "name": "트웬티 압구정점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k21304291": {
+   "name": "투썸플레이스 강남도산점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k22873952": {
+   "name": "공차 압구정로데오점",
+   "cat": "티",
+   "when": "all"
+  },
+  "k1372103506": {
+   "name": "스타벅스 리저브도산점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k13094623": {
+   "name": "소망풍경",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1136270407": {
+   "name": "커스텀커피 도산점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k897588045": {
+   "name": "파티세리 후르츠",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1560733975": {
+   "name": "엠지엠",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k398628990": {
+   "name": "런던베이글 뮤지엄 도산",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1093269361": {
+   "name": "코제트 도산",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2006003453": {
+   "name": "스페이스 도산",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k428924300": {
+   "name": "스몰배치",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k534662333": {
+   "name": "아하 도산점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k813317813": {
+   "name": "놀숲 더레이블도산점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k596169097": {
+   "name": "메가MGC커피 압구정카페골목점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k285382307": {
+   "name": "쭈니네츄러스 압구정점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k370514829": {
+   "name": "럭스915카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1114836416": {
+   "name": "메바쥬",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k27115174": {
+   "name": "마크레인커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1787327406": {
+   "name": "제트커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k697693776": {
+   "name": "압구정쿠데타",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k96545945": {
+   "name": "라미스콘 청담점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k268701308": {
+   "name": "버번스트리트",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1139596270": {
+   "name": "라바트리 압구정",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2064734840": {
+   "name": "업사이드커피 논현점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1177831917": {
+   "name": "제이빈스",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1386912282": {
+   "name": "투아투아",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1366060779": {
+   "name": "원스보드게임카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k760263600": {
+   "name": "깨비대왕",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1241803024": {
+   "name": "구드마리",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k972699587": {
+   "name": "러너펍 압구정로데오점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k756089106": {
+   "name": "프로그커피브루어리",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2144022128": {
+   "name": "라퓨타 서울",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1633588904": {
+   "name": "타르틴베이커리 청담점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k986854549": {
+   "name": "솔로몬",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1114095825": {
+   "name": "차뜨라므 압구정로데오점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1383516362": {
+   "name": "카페로마",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k973394504": {
+   "name": "우디집 도산점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k690702103": {
+   "name": "하삼동커피 서울압구정로데오점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2059369966": {
+   "name": "우아 아뜰리에",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1067988743": {
+   "name": "안목 갤러리",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1610288718": {
+   "name": "마들마들",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k295574646": {
+   "name": "크렘드슈망",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k9898631": {
+   "name": "우노보드카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k253320411": {
+   "name": "니시무라 버터샌드",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k515691028": {
+   "name": "에스씨피스쿱",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1282079990": {
+   "name": "로젠카발리에",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1009054353": {
+   "name": "신나리사주앤타로",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1732544217": {
+   "name": "베이커리앤커피바이쿤달 압구정로데오 플래그쉽스토어",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1373250576": {
+   "name": "맥코이 신사",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k222622866": {
+   "name": "728키친",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k11116099": {
+   "name": "스타벅스 압구정로점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k276406624": {
+   "name": "리퍼블릭",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1515862568": {
+   "name": "아도르",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k582681827": {
+   "name": "압구정생식빵 옵션블랙",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k480427371": {
+   "name": "아이갓에브리씽 서울세관점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1040416253": {
+   "name": "커피빈 압구정로데오2호점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2075756244": {
+   "name": "혜담멘토링하우스",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1993339632": {
+   "name": "타래퀸 압구정로데오점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k88496729": {
+   "name": "노웨어",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k340307800": {
+   "name": "한스 케이터링 서비스",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1007586838": {
+   "name": "CAFE00:00",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1728409661": {
+   "name": "에르제 도산공원점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1234100526": {
+   "name": "핀덴 카페 압구정",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1604111384": {
+   "name": "뉴욕라츠오베이글스",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k451306701": {
+   "name": "비비드빈",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k947680851": {
+   "name": "르센느케이크",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1189401725": {
+   "name": "달콤한시간",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k122430407": {
+   "name": "오앤씨커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k294642317": {
+   "name": "에콘",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1431606416": {
+   "name": "파니나로",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1196828114": {
+   "name": "윰드",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k26480040": {
+   "name": "릴리펏 청담본점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k16848628": {
+   "name": "탐앤탐스 더클래식압구정로데오점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1637759863": {
+   "name": "카페루트",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1430647235": {
+   "name": "애술린",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k602113856": {
+   "name": "르플레",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k19485985": {
+   "name": "황소커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k19001436": {
+   "name": "카페마리",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k628591559": {
+   "name": "미미미가든 카페",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1016477143": {
+   "name": "기욤 청담점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1892213156": {
+   "name": "바닐리아",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1941579109": {
+   "name": "이윤송사주카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2092738394": {
+   "name": "빽다방 강남을지논현점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k23717797": {
+   "name": "사주&타로",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1519225297": {
+   "name": "라스보드카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k12783402": {
+   "name": "압구정볶는커피 청담점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1395130282": {
+   "name": "로그아웃",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1557735334": {
+   "name": "피버바스",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1022489724": {
+   "name": "PBBS",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k21405387": {
+   "name": "에나",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k792646816": {
+   "name": "벨뷰",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1200614422": {
+   "name": "조이보드카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k157837510": {
+   "name": "워터맨즈 카페 바이 노아",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1233417272": {
+   "name": "세드릭신사",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k356356141": {
+   "name": "퀸타로사주",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1039593706": {
+   "name": "고",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1173867436": {
+   "name": "벤슨크리머리 서울",
+   "cat": "아이스크림·빙수",
+   "when": "all"
+  },
+  "k11076268": {
+   "name": "로뎀나무아래서",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k639780565": {
+   "name": "힙스테틱",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1383941352": {
+   "name": "요커 압구정로데오본점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1606224883": {
+   "name": "달디 DAL D",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1337089766": {
+   "name": "아우어베이커리 압구정소망점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1883838851": {
+   "name": "솔티버터스윗",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2005311293": {
+   "name": "리머커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k583868486": {
+   "name": "컴포즈커피 강남영동고점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k240883942": {
+   "name": "스티브",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1791629406": {
+   "name": "벙커컴퍼니 압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1558373566": {
+   "name": "카페파이브바",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k27474739": {
+   "name": "아미띠에",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k960665483": {
+   "name": "카페연무장 압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k11426596": {
+   "name": "도수향",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1342231060": {
+   "name": "카페플레노",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k788025983": {
+   "name": "스타벅스 압구정R점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k308545119": {
+   "name": "투고",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k795158637": {
+   "name": "말랑카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k7996229": {
+   "name": "파스텔드나따 압구정점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k298336930": {
+   "name": "페아노커브",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k19153490": {
+   "name": "커피루소 청담점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k898193279": {
+   "name": "두두케이크",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1347076527": {
+   "name": "로칼커피 논현점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2091568251": {
+   "name": "산새코에",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k493303908": {
+   "name": "캘리클럽 청담점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k16058608": {
+   "name": "로얄케익",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k10159026": {
+   "name": "고센인코퍼레이티드",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k210084510": {
+   "name": "빠니드엠무니",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k294913483": {
+   "name": "이웃집통통이",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1786499892": {
+   "name": "스타벅스 압구정윤성빌딩점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1933939309": {
+   "name": "하임207",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k73847409": {
+   "name": "메종드구르메",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k105717028": {
+   "name": "빙탑",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k983571889": {
+   "name": "호원당 압구정본점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1310304288": {
+   "name": "메가MGC커피 압구정동양빌딩점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1302615909": {
+   "name": "요거트아이스크림의정석 압구정로데오점",
+   "cat": "아이스크림·빙수",
+   "when": "all"
+  },
+  "k1185840988": {
+   "name": "엠오디 서울",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2102230218": {
+   "name": "곤트란쉐리에 논현건설회관점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1429086312": {
+   "name": "터틀베어",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k91279674": {
+   "name": "메종드구르메 LF동관점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k307030782": {
+   "name": "크레스타운 압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1729988926": {
+   "name": "설빙 압구정로데오점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k737383835": {
+   "name": "압구정망고",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1367630127": {
+   "name": "오브젝티브 커피 로스터스",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k382182207": {
+   "name": "스타벅스 청담스타R점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k750004814": {
+   "name": "퍼스트플로어",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1009283495": {
+   "name": "말레",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k2008651271": {
+   "name": "로우앤리얼",
+   "cat": "아이스크림·빙수",
+   "when": "all"
+  },
+  "k1002437295": {
+   "name": "매머드익스프레스 논현중앙점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k13335864": {
+   "name": "스타벅스 신압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k911130788": {
+   "name": "요거프로즌요거트 압구정로데오점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1919538697": {
+   "name": "이일이공구",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k322617612": {
+   "name": "메가MGC커피 강남논현도서관점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k13049428": {
+   "name": "스타벅스 압구정로데오역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1889303069": {
+   "name": "비테도산",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k3791696": {
+   "name": "벤하트베이커리",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1714245309": {
+   "name": "퓨즈잇",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1824483029": {
+   "name": "카페 델 꼬또네 강남구청역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1311535308": {
+   "name": "스웨이드 베이커리 청담",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1703257302": {
+   "name": "달콤N 압구정리앤스타점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k708085692": {
+   "name": "스웨이드스튜디오",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k882413141": {
+   "name": "와플에구름",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1764519708": {
+   "name": "인덱스카라멜 청담점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k241195993": {
+   "name": "이디야커피 을지병원사거리점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2047872895": {
+   "name": "카페브로스101",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1952659301": {
+   "name": "줄기커피바",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1606040685": {
+   "name": "아이라이크먼데이",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1692043917": {
+   "name": "구테로이테 본점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k554914258": {
+   "name": "럭키스팟 강남구청점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k599666815": {
+   "name": "에그카페24 압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k13300855": {
+   "name": "아띠",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1639122281": {
+   "name": "1209 (휴업중)",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k475262375": {
+   "name": "파리바게뜨 강남을지병원점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k396569024": {
+   "name": "팥고당 강남구청역점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k133365632": {
+   "name": "바나프레소 압구정CGV점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k27477831": {
+   "name": "썸인스윗",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1711032983": {
+   "name": "오하나 강남구청점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k74883154": {
+   "name": "온도차",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k991596390": {
+   "name": "카페큐리어스",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k9063605": {
+   "name": "비재즈",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k245714445": {
+   "name": "웨이크앤베이크 압구정",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1178271967": {
+   "name": "단꽃케이크 (Sweet Flower Cake)",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k17007014": {
+   "name": "스위츠플래닛",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1372145153": {
+   "name": "사운드웨이브커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1357366433": {
+   "name": "발루토커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k10322714": {
+   "name": "압구정대치떡방",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1719234385": {
+   "name": "스틱윗미",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1723619109": {
+   "name": "스틱위드미스윗츠",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k21377455": {
+   "name": "쎄리오",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1758328487": {
+   "name": "카페코너 강남구청역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1260064376": {
+   "name": "TWG Tea 안다즈점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1419529121": {
+   "name": "더플레이트디저트",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k525668153": {
+   "name": "안다즈 서울강남 아츠",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k657492377": {
+   "name": "스타벅스 압구정역사3번출구",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2084665123": {
+   "name": "홈즈앤루팡 압구정로데오점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1026157537": {
+   "name": "마지모우 압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k829790506": {
+   "name": "핑크버튼",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1245394258": {
+   "name": "조세핀",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k421464445": {
+   "name": "백억커피 압구정본사점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k844164453": {
+   "name": "JK카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k8549801": {
+   "name": "카베하네커피공방",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1492394665": {
+   "name": "피피베이커리",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k20314993": {
+   "name": "화이트쇼콜라 논현점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k27514021": {
+   "name": "라임",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k13724061": {
+   "name": "사주솟대신점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1376951623": {
+   "name": "트럼프",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k930872929": {
+   "name": "투투",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1876580494": {
+   "name": "달꼬미 청담점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k137249665": {
+   "name": "비밀베이커리 압구정점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k150953372": {
+   "name": "이주원타로스튜디오",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1616998977": {
+   "name": "컴포즈커피 압구정스마일점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1660574843": {
+   "name": "소마",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k12108453": {
+   "name": "스타벅스 압구정미소점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1272347639": {
+   "name": "공차 압구정역점",
+   "cat": "티",
+   "when": "all"
+  },
+  "k1720885570": {
+   "name": "블루보틀 압구정 카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k16706225": {
+   "name": "토프랜드 압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k58119466": {
+   "name": "콩카페 강남구청역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k87520497": {
+   "name": "파인에프엔비코리아",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k63830056": {
+   "name": "플링크 압구정점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k462159387": {
+   "name": "더벤티 강남구청역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k437557687": {
+   "name": "제이콥스래더",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1304428569": {
+   "name": "파티세리바니에",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1102547063": {
+   "name": "비스퀴테리 브리앙",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1346122138": {
+   "name": "화이트리에 압구정점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1624256715": {
+   "name": "스타벅스 압구정",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k656767232": {
+   "name": "워크앤힐",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1420213380": {
+   "name": "메가MGC커피 압구정로데오역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k42331811": {
+   "name": "501하이드아웃",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k267445194": {
+   "name": "501스튜디오",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1801696674": {
+   "name": "루이스카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1266848264": {
+   "name": "W보드카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k133654825": {
+   "name": "콜비 에비뉴",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k266717354": {
+   "name": "집생로커피 압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k332435178": {
+   "name": "아티제 미래와희망병원점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1860690530": {
+   "name": "포도빵집 압구정점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k2112398419": {
+   "name": "매머드익스프레스 압구정유림아트홀점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1920706703": {
+   "name": "컴포즈커피 압구정스퀘어점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k109516355": {
+   "name": "컴포즈커피 강남을지병원점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k24769623": {
+   "name": "221B",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k935773961": {
+   "name": "에레보",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1152580753": {
+   "name": "프리레인 강남",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k670695199": {
+   "name": "카페에이와이",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k18122013": {
+   "name": "탠저린",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k277295400": {
+   "name": "가토프레소",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k806891065": {
+   "name": "지유명차 압구정점",
+   "cat": "티",
+   "when": "all"
+  },
+  "k650181129": {
+   "name": "카페리프 압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1885817342": {
+   "name": "사이 도산",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k21414528": {
+   "name": "카페드파리",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k18887653": {
+   "name": "압구정떡단지",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k26476913": {
+   "name": "폴바셋 압구정2호점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k839420850": {
+   "name": "스탠다드시스템",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1371277681": {
+   "name": "커피에반하다 압구정사거리점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1120901730": {
+   "name": "도너츠윤 압구정점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k680562024": {
+   "name": "드와",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1818332254": {
+   "name": "세젤커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k227575310": {
+   "name": "에이엔아더",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1429592845": {
+   "name": "토즈모임센터 강남구청역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1165137776": {
+   "name": "투썸플레이스 강남구청역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k434507199": {
+   "name": "젠제로 압구정점",
+   "cat": "아이스크림·빙수",
+   "when": "all"
+  },
+  "k26785141": {
+   "name": "스타벅스 을지병원사거리점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1629725451": {
+   "name": "티티엠서울",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k2110581511": {
+   "name": "브타이거",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k21319804": {
+   "name": "아티제 강남구청역점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k601113403": {
+   "name": "로칼커피 청담점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1968844520": {
+   "name": "보울하우스 압구정",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k14084004": {
+   "name": "파리바게뜨 압구정역점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k734117969": {
+   "name": "떠기다방 강남구청역점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1619462994": {
+   "name": "블랙포션",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1004390988": {
+   "name": "스카이",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k970831560": {
+   "name": "오늘도빙수 논현점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k17005382": {
+   "name": "파리바게뜨 강남구청역점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k2049545299": {
+   "name": "찻집 달리아",
+   "cat": "티",
+   "when": "all"
+  },
+  "k8746906": {
+   "name": "압구정공주떡",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k303118387": {
+   "name": "테이블스 강남구청역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k19561065": {
+   "name": "노아베이커리 압구정본점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k8644701": {
+   "name": "노아종합상사",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k210172027": {
+   "name": "서커스",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1278881486": {
+   "name": "투썸플레이스 을지병원사거리 DI점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1386093780": {
+   "name": "메가MGC커피 압구정역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1191441011": {
+   "name": "무미다점 바이 이스턴에디션",
+   "cat": "티",
+   "when": "all"
+  },
+  "k2125079445": {
+   "name": "이니앤코 신사점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k292239479": {
+   "name": "브릭커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1137550590": {
+   "name": "스타벅스 강남청담빌딩점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1643909034": {
+   "name": "배스킨라빈스 압구정역점",
+   "cat": "아이스크림·빙수",
+   "when": "all"
+  },
+  "k505585200": {
+   "name": "크레스타운 신사점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1880947955": {
+   "name": "커피기업 압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1299438043": {
+   "name": "쥬씨 압구정2호점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k662415904": {
+   "name": "쿠프 바버앤커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k452020965": {
+   "name": "과일에반하다프루타 압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k19015177": {
+   "name": "몽크투바흐",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k291679922": {
+   "name": "매머드익스프레스 압구정역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k168020762": {
+   "name": "바나프레소 세관사거리점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k769809336": {
+   "name": "리치커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1745746096": {
+   "name": "탕고 TAANGO",
+   "cat": "아이스크림·빙수",
+   "when": "all"
+  },
+  "k1495090343": {
+   "name": "더벤티 압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1887390795": {
+   "name": "아가젤라또 압구정점",
+   "cat": "아이스크림·빙수",
+   "when": "all"
+  },
+  "k1961493981": {
+   "name": "해피해피케이크 청담점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1681708938": {
+   "name": "씨벨커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k26622617": {
+   "name": "파리바게뜨 압구정중앙점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k124868062": {
+   "name": "달콤가든",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1691514501": {
+   "name": "베통 청담",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k782262722": {
+   "name": "케플러커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1215832837": {
+   "name": "메가MGC커피 압구정현대점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1764627894": {
+   "name": "브라이언스커피 갤러리아백화점 압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k10350877": {
+   "name": "르브아 갤러리아백화점WEST점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k976913732": {
+   "name": "티하우스 하다",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k805755201": {
+   "name": "카페프렌즈",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k172519348": {
+   "name": "커피온 압구정역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k735174291": {
+   "name": "브로트아트 청담점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k783402338": {
+   "name": "티퍼런스 강남",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k16057655": {
+   "name": "커피가든",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k861836418": {
+   "name": "이스터서울 갤러리아백화점명품관WEST점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k206686101": {
+   "name": "우프 학동점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1983498086": {
+   "name": "아르고티 갤러리아백화점WEST점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k817472166": {
+   "name": "레비티커스커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k290954450": {
+   "name": "스테레오스코프커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k888570194": {
+   "name": "골든피스 갤러리아백화점 WEST점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k698965127": {
+   "name": "오늘모찌 갤러리아백화점WEST점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k65172634": {
+   "name": "프레드므아",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1509393368": {
+   "name": "넬리슨 고메이494 갤러리아백화점 WEST점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k27391338": {
+   "name": "폴바셋 강남구청역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k768425610": {
+   "name": "비포블루밍케이크부티크 압구정갤러리아west 점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k22400767": {
+   "name": "10꼬르소꼬모서울카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1011305932": {
+   "name": "슈퍼보바 압구정갤러리아2호점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k800016205": {
+   "name": "어반누크 베이커리카페 신사점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1856923899": {
+   "name": "하트티라미수 압구정 갤러리아점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k691567136": {
+   "name": "메종 사우스케이프 카페 갤러리아 WEST",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k117937394": {
+   "name": "골든치즈 갤러리아백화점WEST점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1127981180": {
+   "name": "벤슨 갤러리아 명품관",
+   "cat": "아이스크림·빙수",
+   "when": "all"
+  },
+  "k1457478803": {
+   "name": "궁을빚다 갤러리아백화점WEST점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1993129662": {
+   "name": "컴포즈커피 서울세관사거리점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k462413507": {
+   "name": "EBA아이스크림",
+   "cat": "아이스크림·빙수",
+   "when": "all"
+  },
+  "k268046356": {
+   "name": "하네루 베이커리 갤러리아백화점WEST점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k274846319": {
+   "name": "바삭 갤러리아백화점WEST점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k452505885": {
+   "name": "모모베이글 갤러리아백화점 WEST점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1031491415": {
+   "name": "트웰브원더바",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1079007377": {
+   "name": "파타티파타타",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1827202060": {
+   "name": "오베르캄프 갤러리아백화점명품관WEST점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1866209532": {
+   "name": "에이보드게임",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k785726845": {
+   "name": "케이보드게임카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1283016562": {
+   "name": "커피랑차랑",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k400106312": {
+   "name": "배스킨라빈스 강남구청역점",
+   "cat": "아이스크림·빙수",
+   "when": "all"
+  },
+  "k76418945": {
+   "name": "공차 강남구청역점",
+   "cat": "티",
+   "when": "all"
+  },
+  "k625528362": {
+   "name": "빅티크",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k717888923": {
+   "name": "피에르에르메파리 갤러리아백화점WEST점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k59137466": {
+   "name": "파티클리에",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1724306729": {
+   "name": "아토앤조이",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1249363305": {
+   "name": "트웰브카페 하우스오브신세계 청담점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2002844044": {
+   "name": "메가MGC커피 강남구청역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k561158339": {
+   "name": "비포블루밍앤 롤시엘",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k722067495": {
+   "name": "제로쓰로 쇼룸",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k117301298": {
+   "name": "화이티코",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1912336218": {
+   "name": "에이에스커피 압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k150200648": {
+   "name": "어써드",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k98758197": {
+   "name": "넵타임커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k307614893": {
+   "name": "늘해피",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k2117978265": {
+   "name": "카페맨메이드 갤러리아백화점 WEST점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2018666179": {
+   "name": "브런치카페 먼데이투선데이",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k56016299": {
+   "name": "아난티 앳 강남 살롱 드 아난티",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2132203239": {
+   "name": "카페풀림",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1101287898": {
+   "name": "롬커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1288979940": {
+   "name": "모카",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2063576690": {
+   "name": "매머드익스프레스 신사압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k614794457": {
+   "name": "강남제분소",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k883610617": {
+   "name": "컴스고스",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k7961953": {
+   "name": "스타벅스 압구정역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1494455366": {
+   "name": "VB커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k249493098": {
+   "name": "빌라드블랑커피",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k112032595": {
+   "name": "이디야커피 강남구청역아이티웨딩점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1208502985": {
+   "name": "놀숲 압구정역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k13055389": {
+   "name": "커피빈 청담카페점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k19964057": {
+   "name": "에이미스커피 논현점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k10534102": {
+   "name": "스타벅스 강남구청역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2122601987": {
+   "name": "아틀리에폰드카페",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1890307426": {
+   "name": "크레스타운 서울세관사거리점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2010384343": {
+   "name": "샵어센틱",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k415756488": {
+   "name": "이모야킨지로 압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1378456673": {
+   "name": "카페융",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k581213557": {
+   "name": "카페드마레",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k11069279": {
+   "name": "미엘",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k19601798": {
+   "name": "빙빙빙 청담점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1822948434": {
+   "name": "카페인24 학동플래그십스토어",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1511658158": {
+   "name": "카페디엘로",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1920025267": {
+   "name": "잠바주스 압구정역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k19601351": {
+   "name": "트리아농",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k155877561": {
+   "name": "도스트",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k853206609": {
+   "name": "압구정달떡집",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1030177489": {
+   "name": "엠무브카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1573565562": {
+   "name": "바나프레소 압구정SLP점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k27228632": {
+   "name": "매머드커피 강남구청점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k256462051": {
+   "name": "제스티크랭크",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k18176517": {
+   "name": "지유명차 청담점",
+   "cat": "티",
+   "when": "all"
+  },
+  "k2056781591": {
+   "name": "오와케이크 압구정역점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k138192139": {
+   "name": "카페암스테르담",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k25540375": {
+   "name": "스타벅스 서울세관사거리점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1395098071": {
+   "name": "하루한알",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k8141560": {
+   "name": "한스 압구정점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1718254713": {
+   "name": "메가MGC커피 학동역10번출구점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k733220854": {
+   "name": "요크",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k890671115": {
+   "name": "커피프리덤 강남논현점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1808872708": {
+   "name": "한국파티케이크디자인협회",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k21746888": {
+   "name": "카페코너",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2082454279": {
+   "name": "루틴잇",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k231168512": {
+   "name": "이디야커피 학동역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k965476044": {
+   "name": "메종246cafe",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k12752687": {
+   "name": "도쿄스위츠",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1367563803": {
+   "name": "타일드카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k23996573": {
+   "name": "소담한",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1661232449": {
+   "name": "엔도어",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k26330941": {
+   "name": "빽다방 압구정역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1909746508": {
+   "name": "투썸플레이스 압구정역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k201463485": {
+   "name": "신사가배",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k817642678": {
+   "name": "드라소울",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k19032221": {
+   "name": "크레마코스타",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k643438737": {
+   "name": "그릭씨네요거트집 신사점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k648964257": {
+   "name": "카라멜리에오 현대백화점 본점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1927651061": {
+   "name": "카페154",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2019382836": {
+   "name": "파리바게뜨 압구정신구초교점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1144552437": {
+   "name": "레이오버",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k225532550": {
+   "name": "카페 본새",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1065620962": {
+   "name": "바샤커피 청담 플래그십 스토어",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1124958698": {
+   "name": "수제 화과자 양갱 행운의젤다",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k781909399": {
+   "name": "포스트커피하우스",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1279938028": {
+   "name": "라오상하이 찻집 논현점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k57538146": {
+   "name": "베이크 현대백화점압구정본점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k623075336": {
+   "name": "카페몬지 압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1676283347": {
+   "name": "히즈빈스 서울영동교회점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2018549479": {
+   "name": "아뜰리에 드 쟈스민 현대백화점압구정본점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1462098746": {
+   "name": "마사비스",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1689990684": {
+   "name": "베이글리스트 현대백화점 압구정본점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1879327611": {
+   "name": "오크베리 현대백화점압구정본점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k10826167": {
+   "name": "커피빈 논현동수면센터점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k768521912": {
+   "name": "압구정 직원카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1994184127": {
+   "name": "브릴리언트커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k21652828": {
+   "name": "기야마 압구정점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1875574706": {
+   "name": "노커피 서울",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1000408346": {
+   "name": "프로메트르",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k737445391": {
+   "name": "외계인방앗간 본점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k322737529": {
+   "name": "바나프레소 학동역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1257572090": {
+   "name": "서울호떡 논현직영점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k21332413": {
+   "name": "뚜레쥬르 압구정직영점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k2065166620": {
+   "name": "루엘드파리 현대백화점압구정본점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k191272112": {
+   "name": "터치 현대백화점압구정본점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1188064760": {
+   "name": "루체포레",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1337952297": {
+   "name": "밀도 현대백화점압구정본점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1530842781": {
+   "name": "루크마리",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k26508313": {
+   "name": "에이미스커피 학동점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k531184941": {
+   "name": "톰딕슨카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k85407144": {
+   "name": "틸화이트 현대백화점압구정본점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k904714324": {
+   "name": "멜로드도산 현대백화점압구정본점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1021688942": {
+   "name": "굿사마리안레시피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1317117876": {
+   "name": "태극당 현대백화점압구정점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1916685880": {
+   "name": "아토",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1592052624": {
+   "name": "폴스마카롱",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k277520995": {
+   "name": "데바스테이트 청담",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k750182674": {
+   "name": "테니베이커리",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k541156452": {
+   "name": "커피인류 강남구청점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k802933416": {
+   "name": "카페메가라운지",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1231309434": {
+   "name": "빠삐용빵 논현점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1349954112": {
+   "name": "티미",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1225623130": {
+   "name": "콜마인",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1117449137": {
+   "name": "코너드커피 논현본점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1623266312": {
+   "name": "힙카롱",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k21554828": {
+   "name": "야카모즈",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k877420218": {
+   "name": "더리터 신사점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1094114775": {
+   "name": "스타벅스 압구정현대아파트점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k10364590": {
+   "name": "뚜레쥬르 강남구청역점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k21551188": {
+   "name": "델마르",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k506926556": {
+   "name": "요거트아이스크림의정석 신사점",
+   "cat": "아이스크림·빙수",
+   "when": "all"
+  },
+  "k205292924": {
+   "name": "메가MGC커피 신사동고개점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1773733390": {
+   "name": "바나프레소 을지병원사거리점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k21332007": {
+   "name": "파리바게뜨 강남구청센터점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k422014356": {
+   "name": "커피나인 학동역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1495709128": {
+   "name": "키친프리바타",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k91290555": {
+   "name": "노판기",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k13302105": {
+   "name": "갤러리로얄",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2073991428": {
+   "name": "앨리스스튜디오&티카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1877496110": {
+   "name": "에어인텔리전스라운지",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2049782012": {
+   "name": "마일드라이프",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1656011717": {
+   "name": "칠요일의케이크",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1331324931": {
+   "name": "굥이네케이크",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1680219019": {
+   "name": "느엘스플라워케이크",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k26593671": {
+   "name": "베이크스토리 학동점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k2130831280": {
+   "name": "엠즈씨드",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k530613768": {
+   "name": "핫브레드 학동역점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k575397811": {
+   "name": "맘마앤독",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k754105655": {
+   "name": "무무앤베리스",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k890159928": {
+   "name": "쏭빠 강남7080라이브 청담쏭빠 강남라이브 대관",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k90562249": {
+   "name": "르뱅룰즈",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k608446678": {
+   "name": "러브미cc",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k7962109": {
+   "name": "스타벅스 학동역점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1114635665": {
+   "name": "뉴스틸페이퍼커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1438993234": {
+   "name": "홍만당 가로수길점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k491967421": {
+   "name": "몽쁘 블랑제리",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1883604351": {
+   "name": "이선옥청담떡방",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k1101666820": {
+   "name": "컴포즈커피 강남보건소점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1688655704": {
+   "name": "로와이드 압구정점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k12152466": {
+   "name": "브레댄코 학동역점",
+   "cat": "베이커리",
+   "when": "all"
+  },
+  "k1503086433": {
+   "name": "메가MGC커피 강남보건소점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k22549791": {
+   "name": "마일스톤커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k867397395": {
+   "name": "레몬트리카페",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k2070540693": {
+   "name": "룩인사이드",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k111151219": {
+   "name": "블록스미스",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1377805831": {
+   "name": "올위",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1891511991": {
+   "name": "우스블랑 청담점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1864949609": {
+   "name": "카페홈즈 학동점",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k484259284": {
+   "name": "카페홈즈 강남학동점",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k676584586": {
+   "name": "텔러스9.5",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k1341473552": {
+   "name": "새들러하우스",
+   "cat": "디저트",
+   "when": "all"
+  },
+  "k98957442": {
+   "name": "메쉬커피",
+   "cat": "커피",
+   "when": "all"
+  },
+  "k8159224": {
+   "name": "허형만의압구정커피집",
+   "cat": "커피",
+   "when": "all"
+  }
+ },
+ "added": {
+  "meal": [],
+  "cafe": []
+ }
+}

@@ -75,7 +75,9 @@ for sheet, kind in (('식당', 'meal'), ('카페', 'cafe')):
             o = {'name': name, 'cat': text(get('종류'))}
             if kind == 'meal':
                 o['pricey'] = text(get('인당 2.5만원↑')).upper() == 'O'
-            o['when'] = WHEN.get(text(get('영업')), 'all')
+            # 영업 칸이 없거나 비어 있으면 적지 않아요 → 앱이 이름·종류로 자동 판단
+            if text(get('영업')) in WHEN:
+                o['when'] = WHEN[text(get('영업'))]
             o['open'], o['close'] = hhmm(get('여는 시간')), hhmm(get('닫는 시간'))
             if bool(o['open']) != bool(o['close']):
                 raise ValueError('여는 시간과 닫는 시간을 둘 다 적어야 해요')
@@ -102,6 +104,12 @@ for sheet, kind in (('식당', 'meal'), ('카페', 'cafe')):
             out['added'][kind].append(item)
             out[kind][nid] = o
             n_new += 1
+    # 엑셀에서 행을 지운 가게는 '목록에서 빼기'로 봐요 (나중에 행을 다시 넣으면 살아나요)
+    base = json.loads((ROOT / ('data/restaurants.json' if kind == 'meal' else 'data/cafes.json')).read_text(encoding='utf-8'))
+    for r in base:
+        if r['id'] not in out[kind]:
+            out[kind][r['id']] = {'hide': True}
+            n_hide += 1
     counts[sheet] = (n_edit, n_hide, n_new)
 
 (ROOT / 'data/overrides.json').write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding='utf-8')

@@ -38,8 +38,10 @@ function row(r, kind) {
   };
 }
 
-const meal = read('data/restaurants.json').map(r => row(r, 'meal'));
-const cafe = read('data/cafes.json').map(r => row(r, 'cafe'));
+// 엑셀에서 지운(빼기) 가게는 다시 내보내지 않아요. 엑셀로 추가한 새 가게는 함께 내보내요
+const visible = (list, kind) => list.concat((ov.added || {})[kind] || []).filter(r => !((ov[kind] || {})[r.id] || {}).hide);
+const meal = visible(read('data/restaurants.json'), 'meal').map(r => row(r, 'meal'));
+const cafe = visible(read('data/cafes.json'), 'cafe').map(r => row(r, 'cafe'));
 const tmp = fileURLToPath(new URL('tools/_rows.json', root));
 writeFileSync(tmp, JSON.stringify({ meal, cafe }));
 const out = fileURLToPath(new URL('식당목록.xlsx', root));

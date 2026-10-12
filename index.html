@@ -495,14 +495,20 @@ function walkDist(r){ const d = distOf(r); return d === null ? null : d * DETOUR
 function walkMin(r){
   const d = walkDist(r);
   if (d === null) return Number(r.walk) || 99;
-  for (const t of rules) if (d <= t.m) return t.min;
+  for (const t of rules) if (d <= t.m) return Math.max(t.min, zoneMin(r));
   return 99;
+}
+// 체감상 더 먼 구역(data/zones.json): 회사 기준일 때 그 구역 가게는 최소 N분으로 봐요
+let zones = [];
+function zoneMin(r){
+  if (company.id !== 'company' || !hasCoords(r)) return 0;
+  return zones.reduce((m, z) => distM(z, r) <= z.radius ? Math.max(m, z.minWalk) : m, 0);
 }
 const roundM = m => Math.round(m / 10) * 10;
 function walkLabel(r){
   const w = walkMin(r), d = walkDist(r), last = rules[rules.length-1].min;
   if (w >= 99) return d === null ? '도보 ?' : `도보 ${last}분 넘음 · 약 ${roundM(d)}m`;
-  return d === null ? `도보 약 ${w}분` : `도보 ${w}분 이내 · 약 ${roundM(d)}m`;
+  return d === null ? `도보 약 ${w}분` : `도보 ${w}분 이내 · 약 ${roundM(d)}m${zoneMin(r) >= w ? ' (체감 거리 보정)' : ''}`;
 }
 function mealNow(){ return new Date().getHours() < 17 ? '점심' : '저녁'; }
 const TILE = {'아이스크림·빙수':'빙수','버거·치킨':'버거'};
@@ -564,7 +570,8 @@ function applySheet(list, ov, kind){
 async function loadData(){
   const get = u => fetch(u, {cache:'no-cache'}).then(r => { if (!r.ok) throw new Error(u); return r.json(); });
   try {
-    const [c, meal, cafe, ov] = await Promise.all([get('data/company.json'), get(MODES.meal.file), get(MODES.cafe.file).catch(() => []), get('data/overrides.json').catch(() => ({}))]);
+    const [c, meal, cafe, ov, zs] = await Promise.all([get('data/company.json'), get(MODES.meal.file), get(MODES.cafe.file).catch(() => []), get('data/overrides.json').catch(() => ({})), get('data/zones.json').catch(() => [])]);
+    zones = Array.isArray(zs) ? zs : [];
     if (!Array.isArray(meal) || !meal.length) return;
     BASE.meal = applySheet(meal, ov, 'meal'); BASE.cafe = applySheet(Array.isArray(cafe) ? cafe : [], ov, 'cafe');
     usingSample = false;

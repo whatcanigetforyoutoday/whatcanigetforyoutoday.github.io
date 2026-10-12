@@ -101,7 +101,7 @@ async function main() {
   await searchRect('CE7', box, cafe);
 
   const inside = d => distM(company, { lat: +d.y, lng: +d.x }) <= RADIUS;
-  const restaurants = [], cafes = [];
+  let restaurants = [], cafes = [];
   for (const d of food.values()) {
     if (!inside(d)) continue;
     if (isSnack(d.category_name)) cafes.push(toItem(d, cafeCat(d.category_name), company));
@@ -109,7 +109,9 @@ async function main() {
   }
   for (const d of cafe.values()) if (inside(d)) cafes.push(toItem(d, cafeCat(d.category_name), company));
   const byDist = (x, y) => x.dist - y.dist;
-  restaurants.sort(byDist); cafes.sort(byDist);
+  // 카카오에 같은 가게가 두 번 등록된 경우(이름·주소가 같음) 하나만 남겨요
+  const dedupe = arr => { const seen = new Set(); return arr.filter(r => { const k = r.name.replace(/\s+/g, '') + '|' + r.address; if (seen.has(k)) return false; seen.add(k); return true; }); };
+  restaurants = dedupe(restaurants.sort(byDist)); cafes = dedupe(cafes.sort(byDist));
 
   mkdirSync(new URL('./data/', import.meta.url), { recursive: true });
   const save = (f, v) => writeFileSync(new URL(`./data/${f}`, import.meta.url), JSON.stringify(v, null, 1));

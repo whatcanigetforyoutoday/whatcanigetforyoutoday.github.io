@@ -102,8 +102,8 @@ header.top { padding-top: 30px; display: flex; justify-content: space-between; a
 .seg.timeline::before, .seg.timeline::after { content: ""; position: absolute; top: 15px; left: 16.66%; height: 6px; border-radius: 6px; }
 .seg.timeline::before { right: 16.66%; background: var(--well); box-shadow: var(--inset); }
 .seg.timeline::after { width: 0; background: var(--grad); transition: width .3s cubic-bezier(.2,.8,.2,1); }
-.seg.timeline:has(#w10:checked)::after { width: 33.33%; }
-.seg.timeline:has(#w15:checked)::after { width: 66.67%; }
+.seg.timeline:has(#w7:checked)::after { width: 33.33%; }
+.seg.timeline:has(#w10:checked)::after { width: 66.67%; }
 .seg.timeline label { padding: 0; background: none !important; box-shadow: none !important; display: flex; flex-direction: column; align-items: center; gap: 14px; position: relative; z-index: 1; }
 .seg.timeline .dot { width: 36px; height: 36px; border-radius: 50%; background: var(--surface); box-shadow: var(--raise-sm); display: grid; place-items: center; transition: all .2s; }
 .seg.timeline .dot::after { content: ""; width: 14px; height: 14px; border-radius: 50%; background: var(--line); transition: all .2s; }
@@ -345,10 +345,10 @@ nav.tabs button[aria-selected="true"] { border-color: transparent; background: v
     </div>
     <div class="panel">
       <h3 class="h3">도보 기준 거리</h3>
-      <p class="hint">기준 장소와 가게 사이 직선거리로 몇 분 거리인지 나눠요. 실제로 걸어본 감각에 맞게 고쳐 주세요.</p>
+      <p class="hint">실제로 걷는 거리(지도 직선거리의 약 1.5배로 계산)로 몇 분 거리인지 나눠요. 걸어본 감각에 맞게 고쳐 주세요.</p>
       <div class="rules" id="rulesBox"></div>
       <div class="actions">
-        <button class="btn" id="resetRules" type="button">기본값 (400m·750m·1km)</button>
+        <button class="btn" id="resetRules" type="button">기본값 (400·560·800m)</button>
         <button class="btn primary" id="saveRules" type="button">기준 저장</button>
       </div>
     </div>
@@ -372,7 +372,9 @@ nav.tabs button[aria-selected="true"] { border-color: transparent; background: v
 const NAVER_MAP_CLIENT_ID = 'arnjqfztl3';
 
 // 도보 분류 기준: 회사↔가게 직선거리(m). 회사 위치 탭에서 바꿀 수 있어요.
-const DEFAULT_RULES = [{min:5, m:400}, {min:10, m:750}, {min:15, m:1000}];
+const DEFAULT_RULES = [{min:5, m:400}, {min:7, m:560}, {min:10, m:800}];
+// 지도에서 잰 직선거리보다 실제로 걷는 길이 깁니다(골목·횡단보도). 강남 일대 실측 기준 약 1.5배로 잡아요
+const DETOUR = 1.5;
 const MODES = {
   meal: {noun:'식당', cats:['한식','중식','일식','양식','아시안','분식','고기','버거·치킨','샐러드','기타'], file:'data/restaurants.json'},
   cafe: {noun:'카페', cats:['커피','디저트','베이커리','아이스크림·빙수','티'], file:'data/cafes.json'},
@@ -431,8 +433,9 @@ let memos = store.get('memos', []);
 // 이 기기에서 고친 내용만 따로 저장해요 (기본 목록이 새로 수집돼도 내 메모가 남도록)
 let edits = Object.assign({meal:{}, cafe:{}}, store.get('edits', {}));
 let deleted = Object.assign({meal:[], cafe:[]}, store.get('deleted', {}));
-let rules = store.get('rules2', DEFAULT_RULES);
-let filters = Object.assign({walk:10, noPricey:true}, store.get('filters', {}));
+let rules = store.get('rules3', DEFAULT_RULES);
+let filters = Object.assign({walk:10, noPricey:true, openNow:true}, store.get('filters', {}));
+if (!rules.some(t => t.min === filters.walk)) filters.walk = rules[rules.length-1].min;
 // 가격대 직접 지정: {가게id: 'pricey' | 'ok'}. 지정 안 한 곳은 아래 규칙으로 자동 판단
 let priceTag = store.get('priceTag', {});
 // 종류 필터: 식사·카페 각각 '이것만(inc)'과 '빼기(exc)'
@@ -467,17 +470,20 @@ function distM(a, b){
   return 2*R*Math.asin(Math.sqrt(h));
 }
 function distOf(r){ return hasCoords(r) && hasCoords(company) ? distM(company, r) : null; }
-// 좌표가 있으면 거리 기준표로 5/10/15분 구간을 정하고, 없으면 직접 적은 분을 써요. 기준 밖이면 99.
+// 예상 도보 거리 = 직선거리 × DETOUR
+function walkDist(r){ const d = distOf(r); return d === null ? null : d * DETOUR; }
+// 좌표가 있으면 예상 도보 거리로 5/7/10분 구간을 정하고, 없으면 직접 적은 분을 써요. 기준 밖이면 99.
 function walkMin(r){
-  const d = distOf(r);
+  const d = walkDist(r);
   if (d === null) return Number(r.walk) || 99;
   for (const t of rules) if (d <= t.m) return t.min;
   return 99;
 }
+const roundM = m => Math.round(m / 10) * 10;
 function walkLabel(r){
-  const w = walkMin(r), d = distOf(r);
-  if (w >= 99) return d === null ? '도보 ?' : `도보 15분 넘음 · ${Math.round(d)}m`;
-  return d === null ? `도보 약 ${w}분` : `도보 ${w}분 이내 · ${Math.round(d)}m`;
+  const w = walkMin(r), d = walkDist(r), last = rules[rules.length-1].min;
+  if (w >= 99) return d === null ? '도보 ?' : `도보 ${last}분 넘음 · 약 ${roundM(d)}m`;
+  return d === null ? `도보 약 ${w}분` : `도보 ${w}분 이내 · 약 ${roundM(d)}m`;
 }
 function mealNow(){ return new Date().getHours() < 17 ? '점심' : '저녁'; }
 const TILE = {'아이스크림·빙수':'빙수','버거·치킨':'버거'};
@@ -499,7 +505,24 @@ const NOT_PRICEY = /국밥|곰탕|탕$|칼국수|부대|쪽갈비|김밥|도시�
 function priceyAuto(r){ return (PRICEY_CAT.test(r.kakaoCat || '') || PRICEY_NAME.test(r.name)) && !NOT_PRICEY.test(r.name + (r.kakaoCat || '')); }
 function isPricey(r){ const t = priceTag[r.id]; return t ? t === 'pricey' : priceyAuto(r); }
 function setPriceTag(r, tag){ if (tag) priceTag[r.id] = tag; else delete priceTag[r.id]; store.set('priceTag', priceTag); skipIds.clear(); }
-function baseMatch(r){ return walkMin(r) <= filters.walk && r.cat !== '술집' && !(mode === 'meal' && filters.noPricey && isPricey(r)); }
+// 영업시간: {가게id: {when:'dinner'|'lunch'|'all', off:[요일0~6], open:'11:30', close:'21:00'}}
+let hours = store.get('hours', {});
+const DINNER_NAME = /오뎅|어묵|이자카야|포차|주점|호프|비어|맥주|와인|펍|야키토리|꼬치|하이볼|사케|위스키|bar\b|\bbar|술집|야장|심야|새벽/i;
+const DINNER_CAT = /치킨|곱창,막창|양꼬치|일본식주점|술집/;
+function dinnerOnlyAuto(r){ return DINNER_NAME.test(r.name) || DINNER_CAT.test(r.kakaoCat || ''); }
+const toMin = t => { const m = /^(\d{1,2}):(\d{2})$/.exec(t || ''); return m ? +m[1]*60 + +m[2] : null; };
+// 지금(뽑는 시점) 열려 있는지. 모르면 열려 있다고 봐요
+function openNow(r, now = new Date()){
+  const h = hours[r.id] || {};
+  if ((h.off || []).includes(now.getDay())) return false;
+  const o = toMin(h.open), c = toMin(h.close), t = now.getHours()*60 + now.getMinutes();
+  if (o !== null && c !== null) return c > o ? (t >= o && t < c) : (t >= o || t < c);   // 자정 넘겨 닫는 곳
+  const when = h.when || (dinnerOnlyAuto(r) ? 'dinner' : 'all');
+  if (when === 'dinner') return mealNow() === '저녁';
+  if (when === 'lunch') return mealNow() === '점심';
+  return true;
+}
+function baseMatch(r){ return walkMin(r) <= filters.walk && r.cat !== '술집' && !(mode === 'meal' && filters.noPricey && isPricey(r)) && (!filters.openNow || openNow(r)); }
 function candidates(){ return places().filter(r => baseMatch(r) && catOk(r)); }
 const fmtM = m => m >= 1000 ? `${+(m/1000).toFixed(1)}km` : `${m}m`;
 
@@ -596,8 +619,9 @@ function updateCount(){
   }
   const noun = MODES[mode].noun, n = candidates().length;
   const maxM = rules[rules.length-1].m;
-  const covered = places().some(r => { const d = distOf(r); return d !== null && d <= maxM; });
-  $('#count').innerHTML = n ? `조건에 맞는 ${noun} <b class="num">${n}곳</b> 중에서 뽑아요`
+  const covered = places().some(r => { const d = walkDist(r); return d !== null && d <= maxM; });
+  const closed = places().filter(r => walkMin(r) <= filters.walk && r.cat !== '술집' && !openNow(r)).length;
+  $('#count').innerHTML = n ? `조건에 맞는 ${noun} <b class="num">${n}곳</b> 중에서 뽑아요${filters.openNow && closed ? ` · 지금 안 여는 ${closed}곳 제외` : ''}`
                      : covered ? `조건에 맞는 ${noun}이 없어요. 거리나 메뉴 조건을 넓혀 보세요`
                                : `${esc(company.name)} 근처 ${noun} 정보가 아직 없어요. 지금 목록은 회사 주변 1km만 모아 둔 거예요`;
   $('#goBtn').disabled = !n;
@@ -659,6 +683,7 @@ function renderResult(r, scroll = true){
       <div class="actions">
         <button class="btn ${mode === 'cafe' ? 'full' : ''}" id="memoQuick" type="button">+ 메모하기</button>
         ${mode === 'meal' ? `<button class="btn" id="priceFix" type="button">${isPricey(r) ? '안 비싸요' : '비싸요 · 빼기'}</button>` : ''}
+        <button class="btn full" id="hoursFix" type="button">${hours[r.id] ? '영업시간 수정' : '지금 영업 안 해요 · 영업시간 입력'}</button>
       </div>
       ${r.address ? `<p class="addr">${PIN}<span>${esc(r.address)}${r.phone ? ` · ${esc(r.phone)}` : ''}</span></p>` : ''}
       <div class="group"><span class="label">메뉴판·리뷰 보기</span><div class="actions">
@@ -680,19 +705,66 @@ function renderResult(r, scroll = true){
     updateCount(); renderResult(r, false);
     toast(was ? '다음부터 이 식당도 뽑아요' : '비싼 곳으로 표시했어요. 다음부터 빼고 뽑아요');
   };
+  $('#hoursFix').onclick = () => openHoursSheet(r);
   $('#decideBtn').onclick = () => openRouteSheet(r);
   if (naverReady) drawNaverMap(r);
   if (scroll) $('#result').scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block:'start'});
 }
 
 function gauge(r){
-  const d = distOf(r); if (d === null) return '';
+  const d = walkDist(r); if (d === null) return '';
   const maxM = rules[rules.length-1].m, C = 2*Math.PI*34, p = Math.min(d/maxM, 1);
   return `<div class="gauge" aria-label="회사에서 ${Math.round(d)}m"><svg viewBox="0 0 80 80" aria-hidden="true">
     <defs><linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2A9BE8"/><stop offset="1" stop-color="#3B2EF2"/></linearGradient></defs>
     <circle cx="40" cy="40" r="34" fill="none" stroke="var(--line)" stroke-width="6"/>
     <circle cx="40" cy="40" r="34" fill="none" stroke="url(#gg)" stroke-width="6" stroke-linecap="round" stroke-dasharray="${(C*p).toFixed(1)} ${C.toFixed(1)}"/></svg>
-    <div class="core"><div><b>${Math.round(d)}</b><small>m</small></div></div></div>`;
+    <div class="core"><div><b>${roundM(d)}</b><small>m 걸어서</small></div></div></div>`;
+}
+function openHoursSheet(r){
+  const h = {when:'', off:[], open:'', close:'', ...(hours[r.id] || {})};
+  const auto = dinnerOnlyAuto(r) ? '저녁에만 여는 곳으로 추정' : '언제나 여는 곳으로 추정';
+  const DAY = ['일','월','화','수','목','금','토'];
+  $('#layer').innerHTML = `<div class="sheet-bg" id="sheetBg"><form class="sheet form" id="hForm" role="dialog" aria-modal="true" aria-labelledby="ht">
+    <h3 id="ht">${esc(r.name)} 영업시간</h3>
+    <p class="hint">한 번 적어 두면 문 닫는 시간·요일엔 자동으로 빼고 뽑아요. 카카오맵에서 영업시간을 확인할 수 있어요.</p>
+    <div class="group"><span class="label">언제 여나요?</span>
+      <div class="seg">
+        <input type="radio" name="hWhen" id="hw0" value="" ${!h.when ? 'checked' : ''}><label for="hw0">자동<small style="display:block;font-size:10.5px;font-weight:500">${auto.replace('곳으로 추정','')}</small></label>
+        <input type="radio" name="hWhen" id="hw1" value="dinner" ${h.when === 'dinner' ? 'checked' : ''}><label for="hw1">저녁만</label>
+        <input type="radio" name="hWhen" id="hw2" value="all" ${h.when === 'all' ? 'checked' : ''}><label for="hw2">점심·저녁</label>
+      </div>
+    </div>
+    <div class="group"><span class="label">정확한 영업시간 (선택)</span>
+      <div class="row2">
+        <label class="field"><span>여는 시간</span><input id="hOpen" type="time" value="${esc(h.open)}"></label>
+        <label class="field"><span>닫는 시간</span><input id="hClose" type="time" value="${esc(h.close)}"></label>
+      </div>
+    </div>
+    <div class="group"><span class="label">쉬는 요일</span>
+      <div class="catchips exc" id="hOff">${DAY.map((d, i) => `<button type="button" data-day="${i}" aria-pressed="${h.off.includes(i)}">${d}</button>`).join('')}</div>
+    </div>
+    <div class="actions">
+      <button type="button" class="btn ghost" id="hReset">${hours[r.id] ? '자동 판단으로 되돌리기' : '취소'}</button>
+      <button type="submit" class="btn primary">저장</button>
+    </div>
+  </form></div>`;
+  const close = () => $('#layer').innerHTML = '';
+  $('#sheetBg').onclick = e => { if (e.target.id === 'sheetBg') close(); };
+  $('#hOff').onclick = e => { const b = e.target.closest('[data-day]'); if (b) b.setAttribute('aria-pressed', b.getAttribute('aria-pressed') !== 'true'); };
+  const done = msg => { store.set('hours', hours); skipIds.clear(); close(); updateCount(); if (current) renderResult(current, false); toast(msg); };
+  $('#hReset').onclick = () => { if (!hours[r.id]) return close(); delete hours[r.id]; done('자동 판단으로 되돌렸어요'); };
+  $('#hForm').onsubmit = ev => {
+    ev.preventDefault();
+    const out = {
+      when: (document.querySelector('input[name=hWhen]:checked') || {}).value || '',
+      open: $('#hOpen').value, close: $('#hClose').value,
+      off: [...document.querySelectorAll('#hOff [aria-pressed=true]')].map(b => +b.dataset.day),
+    };
+    if (!!out.open !== !!out.close){ toast('여는 시간과 닫는 시간을 둘 다 넣어 주세요'); return; }
+    if (!out.when && !out.open && !out.off.length){ delete hours[r.id]; done('자동 판단으로 둘게요'); return; }
+    hours[r.id] = out;
+    done(openNow(r) ? '저장했어요' : '저장했어요. 지금은 안 열어서 다음 뽑기부터 빼요');
+  };
 }
 function openRouteSheet(r){
   $('#layer').innerHTML = `
@@ -725,7 +797,7 @@ function mapBox(r){
   if (naverReady) return `<div class="mapbox"><div class="real" id="nmap"></div><div class="mapcap">네이버 지도 · 실제 걷는 길은 앱 길안내로 확인하세요</div></div>`;
   const W=340, H=250, cx=W/2, cy=H/2+6, R=100;
   const maxM = rules[rules.length-1].m;
-  const meters = x => { const d = distOf(x); return d !== null ? d : (Number(x.walk)||16)/15*maxM; };
+  const meters = x => { const d = walkDist(x); return d !== null ? d : (Number(x.walk)||11)/rules[rules.length-1].min*maxM; };
   const pos = (x, i) => { const a = bearing(x, i), d = Math.min(meters(x)/maxM, 1.12)*R; return [cx + Math.cos(a)*d, cy - Math.sin(a)*d]; };
   const rings = rules.map((t, i) => {
     const rr = R*t.m/maxM;
@@ -774,7 +846,7 @@ function renderList(){
     <button class="ritem" data-edit="${esc(r.id)}">
       <div class="ph">${r.menus?.[0]?.img ? `<img src="${esc(r.menus[0].img)}" alt="">` : tile(r.cat)}</div>
       <div class="rn">${esc(r.name)}<small>${esc(subCat(r))}${r.menus?.[0]?.name ? ' · '+esc(r.menus[0].name) : ''}${r.note ? ' · 한줄평 있음' : ''}${r.sample?' · 예시':''}</small></div>
-      <div class="rw num">${walkMin(r) >= 99 ? (distOf(r) === null ? '도보<br>?' : '15분<br>넘음') : walkMin(r)+'분<br>이내'}${distOf(r) !== null ? `<br><span class="hint">${Math.round(distOf(r))}m</span>` : ''}</div>
+      <div class="rw num">${walkMin(r) >= 99 ? (distOf(r) === null ? '도보<br>?' : rules[rules.length-1].min+'분<br>넘음') : walkMin(r)+'분<br>이내'}${walkDist(r) !== null ? `<br><span class="hint">약 ${roundM(walkDist(r))}m</span>` : ''}</div>
     </button>`).join('') || `<div class="empty"><b>${q ? '찾는 곳이 없어요' : `등록된 ${noun}이 없어요`}</b>${q ? '다른 이름으로 검색해 보세요.' : `위의 '+ ${noun} 추가'로 넣어 주세요.`}</div>`;
 }
 $('#listSearch').addEventListener('input', e => { listQuery = e.target.value; renderList(); });
@@ -1007,9 +1079,9 @@ function renderRules(){
 $('#saveRules').onclick = () => {
   const next = rules.map((t, i) => ({min: t.min, m: Number($('#rule'+i).value)}));
   if (next.some(t => !(t.m > 0)) || next.some((t, i) => i && t.m <= next[i-1].m)){ toast('거리는 5분 < 10분 < 15분 순서로 커져야 해요'); return; }
-  rules = next; store.set('rules2', rules); renderFilters(); refreshAll(); toast('도보 기준을 저장했어요');
+  rules = next; store.set('rules3', rules); renderFilters(); refreshAll(); toast('도보 기준을 저장했어요');
 };
-$('#resetRules').onclick = () => { rules = DEFAULT_RULES; store.set('rules2', rules); renderRules(); renderFilters(); refreshAll(); };
+$('#resetRules').onclick = () => { rules = DEFAULT_RULES; store.set('rules3', rules); renderRules(); renderFilters(); refreshAll(); };
 
 /* ===== 탭 ===== */
 function showTab(t){
